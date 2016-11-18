@@ -21,3 +21,7 @@ def test_should_jsonschema():
 
 def test_should_cerberus_schema():
     assert bioschemas.cerberus_schema('Resource')
+
+
+def test_should_return_git_hashes():
+    assert bioschemas.git_hashes()

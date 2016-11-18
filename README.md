@@ -31,6 +31,25 @@ OK
 ```
 
 
+### usage
+```
+import  bioschemas
+
+bioschemas.schema_path()
+>> '/home/someuser/bioschemas/bioschemas/snapshot'
+
+ bioschemas.json_schema('Resource')
+>> '{"type": "object", "properties": {"mimeType": {"type": "string"}, "info": {"type": "object"}, "name": {"type": "string"}, "format": {"type": "string"}, "checksum": {"type": "string"}, "description": {"type": "string"}, "created": {"type": "string"}, "class": {"type": "string"}, "gid": {"type": "string"}, "location": {"type": "string"}, "type": {"type": "string"}, "id": {"type": "string"}, "datasetID": {"type": "string"}, "size": {"type": "integer"}}}'
+
+ bioschemas.cerberus_schema('Resource')
+>>  '{"mimeType": {"type": "string"}, "info": {"type": {"type": "dict"}}, "name": {"type": "string"}, "format": {"type": "string"}, "checksum": {"type": "string"}, "description": {"type": "string"}, "created": {"type": "string"}, "class": {"type": "string"}, "gid": {"type": "string"}, "location": {"type": "string"}, "type": {"type": "string"}, "id": {"type": "string"}, "datasetID": {"type": "string"}, "size": {"type": "integer"}}'
+
+bioschemas.git_hashes()
+>>  '{"bioschemas": "067b1d2", "created_at": "2016-11-18T04:58:19.593297Z", "gdc": "288f042", "bmeg": "537f94a"}'
+
+```
+
+
 
 
 ## utilty

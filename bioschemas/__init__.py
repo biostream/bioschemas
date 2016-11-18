@@ -64,7 +64,19 @@ def cerberus_schema(key):
 
 
 def schema_path():
+    """
+    return the path of schemas within package
+    """
     return os.path.abspath(os.path.join(os.path.dirname(__file__), "snapshot"))
+
+
+def git_hashes():
+    """
+    return git hashes at time of snapshot
+    """
+    path = os.path.join(os.path.dirname(__file__), "snapshot/git_hashes.json")
+    with open(path, "r") as myfile:
+        return myfile.read().strip()
 
 # load all
 _init()
