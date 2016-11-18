@@ -46,25 +46,6 @@ optional arguments:
   -v, --version         Print git hashes
 ```
 
-### python usage
-
-```
-import  bioschemas
-
-bioschemas.schema_path()
->> '/home/someuser/bioschemas/bioschemas/snapshot'
-
-
- bioschemas.json_schema('Resource')
->> '{"type": "object", "properties": {"mimeType": {"type": "string"}, "info": {"type": "object"}, "name": {"type": "string"}, "format": {"type": "string"}, "checksum": {"type": "string"}, "description": {"type": "string"}, "created": {"type": "string"}, "class": {"type": "string"}, "gid": {"type": "string"}, "location": {"type": "string"}, "type": {"type": "string"}, "id": {"type": "string"}, "datasetID": {"type": "string"}, "size": {"type": "integer"}}}'
-
- bioschemas.cerberus_schema('Resource')
->>  '{"mimeType": {"type": "string"}, "info": {"type": {"type": "dict"}}, "name": {"type": "string"}, "format": {"type": "string"}, "checksum": {"type": "string"}, "description": {"type": "string"}, "created": {"type": "string"}, "class": {"type": "string"}, "gid": {"type": "string"}, "location": {"type": "string"}, "type": {"type": "string"}, "id": {"type": "string"}, "datasetID": {"type": "string"}, "size": {"type": "integer"}}'
-
-bioschemas.git_hashes()
->>  '{"bioschemas": "067b1d2", "created_at": "2016-11-18T04:58:19.593297Z", "gdc": "288f042", "bmeg": "537f94a"}'
-
-```
 
 The snapshot can be used by any language context and has the following structure:
 ```
@@ -91,6 +72,29 @@ The snapshot can be used by any language context and has the following structure
         ├── ga4gh
         └── google
             └── api
+```
+
+
+### python usage
+
+```
+import  bioschemas
+
+bioschemas.schema_path()
+>> '/home/someuser/bioschemas/bioschemas/snapshot'
+
+ bioschemas.json_schema('Resource')
+>> {u'properties': {u'checksum': {u'type': u'string'}, u'class': {u'type': u'string'}, u'created': {u'type': u'string'}, u'datasetID': {u'type': u'string'}, u'description': {u'type': u'string'}, u'format': {u'type': u'string'}, u'gid': {u'type': u'string'}, u'id': {u'type': u'string'}, u'info': {u'type': u'object'}, u'location': {u'type': u'string'}, u'mimeType': {u'type': u'string'}, u'name': {u'type': u'string'}, u'size': {u'type': u'integer'}, u'type': {u'type': u'string'}}, u'type': u'object'}  
+
+ bioschemas.cerberus_schema('Resource')
+>> {u'checksum': {u'type': u'string'}, u'class': {u'type': u'string'}, u'created': {u'type': u'string'}, u'datasetID': {u'type': u'string'}, u'description': {u'type': u'string'}, u'format': {u'type': u'string'}, u'gid': {u'type': u'string'}, u'id': {u'type': u'string'}, u'info': {u'type': {u'type': u'dict'}}, u'location': {u'type': u'string'}, u'mimeType': {u'type': u'string'}, u'name': {u'type': u'string'}, u'size': {u'type': u'integer'}, u'type': {u'type': u'string'}}
+
+bioschemas.git_hashes()
+>>  {u'bioschemas': u'f40f653', u'bmeg': u'537f94a', u'created_at': u'2016-11-18T17:47:56.858397Z', u'gdc': u'288f042'}
+
+bioschemas.gdc_submission_template('file')
+
+>> {u'aliquots': {u'submitter_id': None}, u'analytes': {u'submitter_id': None}, u'archives': {u'submitter_id': None}, u'cases': {u'submitter_id': None}, u'centers': {u'code': None}, u'data_formats': {u'name': None}, u'data_subtypes': {u'name': None}, u'derived_files': {u'submitter_id': None}, u'described_cases': {u'submitter_id': None}, u'experimental_strategies': {u'name': None}, u'file_name': None, u'file_size': None, u'md5sum': None, u'platforms': {u'name': None}, u'portions': {u'submitter_id': None}, u'project_id': None, u'related_files': {u'submitter_id': None}, u'samples': {u'submitter_id': None}, u'slides': {u'submitter_id': None}, u'state_comment': None, u'submitter_id': None, u'tags': {u'name': None}, u'type': u'file'}
 ```
 
 

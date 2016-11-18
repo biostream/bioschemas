@@ -79,7 +79,7 @@ def git_hashes():
     """
     path = os.path.join(os.path.dirname(__file__), "snapshot/git_hashes.json")
     with open(path, "r") as myfile:
-        return myfile.read().strip()
+        return json.loads(myfile.read().strip())
 
 
 def gdc_submission_templates():
