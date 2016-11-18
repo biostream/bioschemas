@@ -1,0 +1,62 @@
+{
+  "DOMAIN": {
+    "ReferenceSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "md5checksum": {
+        "type": "string"
+      }, 
+      "ncbi_taxon_id": {
+        "type": "integer"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "assembly_id": {
+        "type": "string"
+      }, 
+      "source_uri": {
+        "type": "string"
+      }, 
+      "source_accessions": {
+        "type": "string"
+      }, 
+      "is_derived": {
+        "type": "boolean"
+      }
+    }, 
+    "Reference": {
+      "id": {
+        "type": "string"
+      }, 
+      "length": {
+        "type": "integer"
+      }, 
+      "md5checksum": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "source_uri": {
+        "type": "string"
+      }, 
+      "source_accessions": {
+        "type": "string"
+      }, 
+      "is_derived": {
+        "type": "boolean"
+      }, 
+      "source_divergence": {
+        "type": "number"
+      }, 
+      "ncbi_taxon_id": {
+        "type": "integer"
+      }
+    }
+  }
+}

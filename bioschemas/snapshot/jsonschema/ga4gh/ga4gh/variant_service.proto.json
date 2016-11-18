@@ -1,0 +1,121 @@
+{
+  "definitions": {
+    "SearchCallSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "variant_set_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "bio_sample_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchVariantsResponse": {
+      "type": "object", 
+      "properties": {
+        "variants": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchVariantSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetCallSetRequest": {
+      "type": "object", 
+      "properties": {
+        "call_set_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchVariantsRequest": {
+      "type": "object", 
+      "properties": {
+        "variant_set_id": {
+          "type": "string"
+        }, 
+        "call_set_ids": {
+          "type": "string"
+        }, 
+        "reference_name": {
+          "type": "string"
+        }, 
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchVariantSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "variant_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetVariantSetRequest": {
+      "type": "object", 
+      "properties": {
+        "variant_set_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchCallSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "call_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetVariantRequest": {
+      "type": "object", 
+      "properties": {
+        "variant_id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

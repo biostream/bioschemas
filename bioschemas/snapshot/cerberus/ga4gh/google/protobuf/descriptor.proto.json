@@ -1,0 +1,565 @@
+{
+  "DOMAIN": {
+    "OneofOptions": {
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "CType": {
+      "STRING": {
+        "type": 0
+      }, 
+      "CORD": {
+        "type": 1
+      }, 
+      "STRING_PIECE": {
+        "type": 2
+      }
+    }, 
+    "Label": {
+      "LABEL_OPTIONAL": {
+        "type": 1
+      }, 
+      "LABEL_REQUIRED": {
+        "type": 2
+      }, 
+      "LABEL_REPEATED": {
+        "type": 3
+      }
+    }, 
+    "NamePart": {
+      "name_part": {
+        "type": "string"
+      }, 
+      "is_extension": {
+        "type": "boolean"
+      }
+    }, 
+    "FileOptions": {
+      "java_package": {
+        "type": "string"
+      }, 
+      "java_outer_classname": {
+        "type": "string"
+      }, 
+      "optimize_for": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "java_multiple_files": {
+        "type": "boolean"
+      }, 
+      "go_package": {
+        "type": "string"
+      }, 
+      "cc_generic_services": {
+        "type": "boolean"
+      }, 
+      "java_generic_services": {
+        "type": "boolean"
+      }, 
+      "py_generic_services": {
+        "type": "boolean"
+      }, 
+      "java_generate_equals_and_hash": {
+        "type": "boolean"
+      }, 
+      "deprecated": {
+        "type": "boolean"
+      }, 
+      "java_string_check_utf8": {
+        "type": "boolean"
+      }, 
+      "cc_enable_arenas": {
+        "type": "boolean"
+      }, 
+      "objc_class_prefix": {
+        "type": "string"
+      }, 
+      "csharp_namespace": {
+        "type": "string"
+      }, 
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Location": {
+      "path": {
+        "type": "integer"
+      }, 
+      "span": {
+        "type": "integer"
+      }, 
+      "leading_comments": {
+        "type": "string"
+      }, 
+      "trailing_comments": {
+        "type": "string"
+      }, 
+      "leading_detached_comments": {
+        "type": "string"
+      }
+    }, 
+    "OneofDescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Type": {
+      "TYPE_DOUBLE": {
+        "type": 1
+      }, 
+      "TYPE_FLOAT": {
+        "type": 2
+      }, 
+      "TYPE_INT64": {
+        "type": 3
+      }, 
+      "TYPE_UINT64": {
+        "type": 4
+      }, 
+      "TYPE_INT32": {
+        "type": 5
+      }, 
+      "TYPE_FIXED64": {
+        "type": 6
+      }, 
+      "TYPE_FIXED32": {
+        "type": 7
+      }, 
+      "TYPE_BOOL": {
+        "type": 8
+      }, 
+      "TYPE_STRING": {
+        "type": 9
+      }, 
+      "TYPE_GROUP": {
+        "type": 10
+      }, 
+      "TYPE_MESSAGE": {
+        "type": 11
+      }, 
+      "TYPE_BYTES": {
+        "type": 12
+      }, 
+      "TYPE_UINT32": {
+        "type": 13
+      }, 
+      "TYPE_ENUM": {
+        "type": 14
+      }, 
+      "TYPE_SFIXED32": {
+        "type": 15
+      }, 
+      "TYPE_SFIXED64": {
+        "type": 16
+      }, 
+      "TYPE_SINT32": {
+        "type": 17
+      }, 
+      "TYPE_SINT64": {
+        "type": 18
+      }
+    }, 
+    "DescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "field": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "nested_type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "enum_type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "extension_range": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "extension": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "oneof_decl": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "reserved_range": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "reserved_name": {
+        "type": "string"
+      }
+    }, 
+    "UninterpretedOption": {
+      "name": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "identifier_value": {
+        "type": "string"
+      }, 
+      "positive_int_value": {
+        "type": "integer"
+      }, 
+      "negative_int_value": {
+        "type": "integer"
+      }, 
+      "double_value": {
+        "type": "number"
+      }, 
+      "string_value": {
+        "type": "BYTES"
+      }, 
+      "aggregate_value": {
+        "type": "string"
+      }
+    }, 
+    "OptimizeMode": {
+      "SPEED": {
+        "type": 1
+      }, 
+      "CODE_SIZE": {
+        "type": 2
+      }, 
+      "LITE_RUNTIME": {
+        "type": 3
+      }
+    }, 
+    "FieldOptions": {
+      "ctype": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "packed": {
+        "type": "boolean"
+      }, 
+      "deprecated": {
+        "type": "boolean"
+      }, 
+      "lazy": {
+        "type": "boolean"
+      }, 
+      "jstype": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "weak": {
+        "type": "boolean"
+      }, 
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "MethodOptions": {
+      "deprecated": {
+        "type": "boolean"
+      }, 
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "MessageOptions": {
+      "message_set_wire_format": {
+        "type": "boolean"
+      }, 
+      "no_standard_descriptor_accessor": {
+        "type": "boolean"
+      }, 
+      "deprecated": {
+        "type": "boolean"
+      }, 
+      "map_entry": {
+        "type": "boolean"
+      }, 
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "ExtensionRange": {
+      "start": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }
+    }, 
+    "ServiceOptions": {
+      "deprecated": {
+        "type": "boolean"
+      }, 
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "EnumValueDescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "number": {
+        "type": "integer"
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Annotation": {
+      "path": {
+        "type": "integer"
+      }, 
+      "source_file": {
+        "type": "string"
+      }, 
+      "begin": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }
+    }, 
+    "ReservedRange": {
+      "start": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }
+    }, 
+    "SourceCodeInfo": {
+      "location": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "EnumDescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "JSType": {
+      "JS_NORMAL": {
+        "type": 0
+      }, 
+      "JS_STRING": {
+        "type": 1
+      }, 
+      "JS_NUMBER": {
+        "type": 2
+      }
+    }, 
+    "EnumValueOptions": {
+      "deprecated": {
+        "type": "boolean"
+      }, 
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "FileDescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "package": {
+        "type": "string"
+      }, 
+      "dependency": {
+        "type": "string"
+      }, 
+      "message_type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "enum_type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "service": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "extension": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "source_code_info": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "public_dependency": {
+        "type": "integer"
+      }, 
+      "weak_dependency": {
+        "type": "integer"
+      }, 
+      "syntax": {
+        "type": "string"
+      }
+    }, 
+    "ServiceDescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "method": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "FileDescriptorSet": {
+      "file": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "GeneratedCodeInfo": {
+      "annotation": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "MethodDescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "input_type": {
+        "type": "string"
+      }, 
+      "output_type": {
+        "type": "string"
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "client_streaming": {
+        "type": "boolean"
+      }, 
+      "server_streaming": {
+        "type": "boolean"
+      }
+    }, 
+    "FieldDescriptorProto": {
+      "name": {
+        "type": "string"
+      }, 
+      "extendee": {
+        "type": "string"
+      }, 
+      "number": {
+        "type": "integer"
+      }, 
+      "label": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "type_name": {
+        "type": "string"
+      }, 
+      "default_value": {
+        "type": "string"
+      }, 
+      "options": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "oneof_index": {
+        "type": "integer"
+      }, 
+      "json_name": {
+        "type": "string"
+      }
+    }, 
+    "EnumOptions": {
+      "allow_alias": {
+        "type": "boolean"
+      }, 
+      "deprecated": {
+        "type": "boolean"
+      }, 
+      "uninterpreted_option": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "DOMAIN": {
+    "SearchDatasetsRequest": {
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchDatasetsResponse": {
+      "datasets": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "GetDatasetRequest": {
+      "dataset_id": {
+        "type": "string"
+      }
+    }
+  }
+}

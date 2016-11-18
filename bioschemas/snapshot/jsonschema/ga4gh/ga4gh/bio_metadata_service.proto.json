@@ -1,0 +1,79 @@
+{
+  "definitions": {
+    "GetBioSampleRequest": {
+      "type": "object", 
+      "properties": {
+        "bio_sample_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchBioSamplesRequest": {
+      "type": "object", 
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "individual_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchBioSamplesResponse": {
+      "type": "object", 
+      "properties": {
+        "biosamples": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetIndividualRequest": {
+      "type": "object", 
+      "properties": {
+        "individual_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchIndividualsRequest": {
+      "type": "object", 
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchIndividualsResponse": {
+      "type": "object", 
+      "properties": {
+        "individuals": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

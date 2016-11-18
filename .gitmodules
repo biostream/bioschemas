@@ -1,0 +1,9 @@
+[submodule "schemas/ga4gh"]
+	path = schemas/ga4gh
+	url = https://github.com/ga4gh/schemas
+[submodule "schemas/bmeg"]
+	path = schemas/bmeg
+	url = https://github.com/bmeg/bmeg-schemas
+[submodule "schemas/gdc"]
+	path = schemas/gdc
+	url = https://github.com/NCI-GDC/gdcdictionary

@@ -1,0 +1,195 @@
+{
+  "definitions": {
+    "ga4gh.Variant.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Variant": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "variant_set_id": {
+          "type": "string"
+        }, 
+        "names": {
+          "type": "string"
+        }, 
+        "created": {
+          "type": "integer"
+        }, 
+        "updated": {
+          "type": "integer"
+        }, 
+        "reference_name": {
+          "type": "string"
+        }, 
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "reference_bases": {
+          "type": "string"
+        }, 
+        "alternate_bases": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }, 
+        "calls": {
+          "type": "object"
+        }
+      }
+    }, 
+    "VariantSet": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "reference_set_id": {
+          "type": "string"
+        }, 
+        "metadata": {
+          "type": "object"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "VariantSetMetadata": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "string"
+        }, 
+        "id": {
+          "type": "string"
+        }, 
+        "type": {
+          "type": "string"
+        }, 
+        "number": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.CallSet.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.VariantSetMetadata.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Call": {
+      "type": "object", 
+      "properties": {
+        "call_set_name": {
+          "type": "string"
+        }, 
+        "call_set_id": {
+          "type": "string"
+        }, 
+        "genotype": {
+          "type": "integer"
+        }, 
+        "phaseset": {
+          "type": "string"
+        }, 
+        "genotype_likelihood": {
+          "type": "number"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "CallSet": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "bio_sample_id": {
+          "type": "string"
+        }, 
+        "variant_set_ids": {
+          "type": "string"
+        }, 
+        "created": {
+          "type": "integer"
+        }, 
+        "updated": {
+          "type": "integer"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.Call.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "definitions": {
+    "OneofOptions": {
+      "type": "object", 
+      "properties": {
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "CType": {
+      "type": "object", 
+      "properties": {
+        "STRING": {
+          "type": 0
+        }, 
+        "CORD": {
+          "type": 1
+        }, 
+        "STRING_PIECE": {
+          "type": 2
+        }
+      }
+    }, 
+    "Label": {
+      "type": "object", 
+      "properties": {
+        "LABEL_OPTIONAL": {
+          "type": 1
+        }, 
+        "LABEL_REQUIRED": {
+          "type": 2
+        }, 
+        "LABEL_REPEATED": {
+          "type": 3
+        }
+      }
+    }, 
+    "NamePart": {
+      "type": "object", 
+      "properties": {
+        "name_part": {
+          "type": "string"
+        }, 
+        "is_extension": {
+          "type": "boolean"
+        }
+      }
+    }, 
+    "FileOptions": {
+      "type": "object", 
+      "properties": {
+        "java_package": {
+          "type": "string"
+        }, 
+        "java_outer_classname": {
+          "type": "string"
+        }, 
+        "optimize_for": {
+          "type": "object"
+        }, 
+        "java_multiple_files": {
+          "type": "boolean"
+        }, 
+        "go_package": {
+          "type": "string"
+        }, 
+        "cc_generic_services": {
+          "type": "boolean"
+        }, 
+        "java_generic_services": {
+          "type": "boolean"
+        }, 
+        "py_generic_services": {
+          "type": "boolean"
+        }, 
+        "java_generate_equals_and_hash": {
+          "type": "boolean"
+        }, 
+        "deprecated": {
+          "type": "boolean"
+        }, 
+        "java_string_check_utf8": {
+          "type": "boolean"
+        }, 
+        "cc_enable_arenas": {
+          "type": "boolean"
+        }, 
+        "objc_class_prefix": {
+          "type": "string"
+        }, 
+        "csharp_namespace": {
+          "type": "string"
+        }, 
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Location": {
+      "type": "object", 
+      "properties": {
+        "path": {
+          "type": "integer"
+        }, 
+        "span": {
+          "type": "integer"
+        }, 
+        "leading_comments": {
+          "type": "string"
+        }, 
+        "trailing_comments": {
+          "type": "string"
+        }, 
+        "leading_detached_comments": {
+          "type": "string"
+        }
+      }
+    }, 
+    "OneofDescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "options": {
+          "type": "object"
+        }
+      }
+    }, 
+    "google.protobuf.GeneratedCodeInfo.Annotation": {
+      "type": "object", 
+      "properties": {
+        "path": {
+          "type": "integer"
+        }, 
+        "source_file": {
+          "type": "string"
+        }, 
+        "begin": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "Type": {
+      "type": "object", 
+      "properties": {
+        "TYPE_DOUBLE": {
+          "type": 1
+        }, 
+        "TYPE_FLOAT": {
+          "type": 2
+        }, 
+        "TYPE_INT64": {
+          "type": 3
+        }, 
+        "TYPE_UINT64": {
+          "type": 4
+        }, 
+        "TYPE_INT32": {
+          "type": 5
+        }, 
+        "TYPE_FIXED64": {
+          "type": 6
+        }, 
+        "TYPE_FIXED32": {
+          "type": 7
+        }, 
+        "TYPE_BOOL": {
+          "type": 8
+        }, 
+        "TYPE_STRING": {
+          "type": 9
+        }, 
+        "TYPE_GROUP": {
+          "type": 10
+        }, 
+        "TYPE_MESSAGE": {
+          "type": 11
+        }, 
+        "TYPE_BYTES": {
+          "type": 12
+        }, 
+        "TYPE_UINT32": {
+          "type": 13
+        }, 
+        "TYPE_ENUM": {
+          "type": 14
+        }, 
+        "TYPE_SFIXED32": {
+          "type": 15
+        }, 
+        "TYPE_SFIXED64": {
+          "type": 16
+        }, 
+        "TYPE_SINT32": {
+          "type": 17
+        }, 
+        "TYPE_SINT64": {
+          "type": 18
+        }
+      }
+    }, 
+    "DescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "field": {
+          "type": "object"
+        }, 
+        "nested_type": {
+          "type": "object"
+        }, 
+        "enum_type": {
+          "type": "object"
+        }, 
+        "extension_range": {
+          "type": "object"
+        }, 
+        "extension": {
+          "type": "object"
+        }, 
+        "options": {
+          "type": "object"
+        }, 
+        "oneof_decl": {
+          "type": "object"
+        }, 
+        "reserved_range": {
+          "type": "object"
+        }, 
+        "reserved_name": {
+          "type": "string"
+        }
+      }
+    }, 
+    "UninterpretedOption": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "object"
+        }, 
+        "identifier_value": {
+          "type": "string"
+        }, 
+        "positive_int_value": {
+          "type": "integer"
+        }, 
+        "negative_int_value": {
+          "type": "integer"
+        }, 
+        "double_value": {
+          "type": "number"
+        }, 
+        "string_value": {
+          "type": "BYTES"
+        }, 
+        "aggregate_value": {
+          "type": "string"
+        }
+      }
+    }, 
+    "OptimizeMode": {
+      "type": "object", 
+      "properties": {
+        "SPEED": {
+          "type": 1
+        }, 
+        "CODE_SIZE": {
+          "type": 2
+        }, 
+        "LITE_RUNTIME": {
+          "type": 3
+        }
+      }
+    }, 
+    "FieldOptions": {
+      "type": "object", 
+      "properties": {
+        "ctype": {
+          "type": "object"
+        }, 
+        "packed": {
+          "type": "boolean"
+        }, 
+        "deprecated": {
+          "type": "boolean"
+        }, 
+        "lazy": {
+          "type": "boolean"
+        }, 
+        "jstype": {
+          "type": "object"
+        }, 
+        "weak": {
+          "type": "boolean"
+        }, 
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "MethodOptions": {
+      "type": "object", 
+      "properties": {
+        "deprecated": {
+          "type": "boolean"
+        }, 
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "MessageOptions": {
+      "type": "object", 
+      "properties": {
+        "message_set_wire_format": {
+          "type": "boolean"
+        }, 
+        "no_standard_descriptor_accessor": {
+          "type": "boolean"
+        }, 
+        "deprecated": {
+          "type": "boolean"
+        }, 
+        "map_entry": {
+          "type": "boolean"
+        }, 
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ExtensionRange": {
+      "type": "object", 
+      "properties": {
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "google.protobuf.DescriptorProto.ExtensionRange": {
+      "type": "object", 
+      "properties": {
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "ServiceOptions": {
+      "type": "object", 
+      "properties": {
+        "deprecated": {
+          "type": "boolean"
+        }, 
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "EnumValueOptions": {
+      "type": "object", 
+      "properties": {
+        "deprecated": {
+          "type": "boolean"
+        }, 
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "EnumValueDescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "number": {
+          "type": "integer"
+        }, 
+        "options": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Annotation": {
+      "type": "object", 
+      "properties": {
+        "path": {
+          "type": "integer"
+        }, 
+        "source_file": {
+          "type": "string"
+        }, 
+        "begin": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "ReservedRange": {
+      "type": "object", 
+      "properties": {
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "google.protobuf.UninterpretedOption.NamePart": {
+      "type": "object", 
+      "properties": {
+        "name_part": {
+          "type": "string"
+        }, 
+        "is_extension": {
+          "type": "boolean"
+        }
+      }
+    }, 
+    "SourceCodeInfo": {
+      "type": "object", 
+      "properties": {
+        "location": {
+          "type": "object"
+        }
+      }
+    }, 
+    "EnumDescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }, 
+        "options": {
+          "type": "object"
+        }
+      }
+    }, 
+    "google.protobuf.SourceCodeInfo.Location": {
+      "type": "object", 
+      "properties": {
+        "path": {
+          "type": "integer"
+        }, 
+        "span": {
+          "type": "integer"
+        }, 
+        "leading_comments": {
+          "type": "string"
+        }, 
+        "trailing_comments": {
+          "type": "string"
+        }, 
+        "leading_detached_comments": {
+          "type": "string"
+        }
+      }
+    }, 
+    "JSType": {
+      "type": "object", 
+      "properties": {
+        "JS_NORMAL": {
+          "type": 0
+        }, 
+        "JS_STRING": {
+          "type": 1
+        }, 
+        "JS_NUMBER": {
+          "type": 2
+        }
+      }
+    }, 
+    "EnumOptions": {
+      "type": "object", 
+      "properties": {
+        "allow_alias": {
+          "type": "boolean"
+        }, 
+        "deprecated": {
+          "type": "boolean"
+        }, 
+        "uninterpreted_option": {
+          "type": "object"
+        }
+      }
+    }, 
+    "FileDescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "package": {
+          "type": "string"
+        }, 
+        "dependency": {
+          "type": "string"
+        }, 
+        "message_type": {
+          "type": "object"
+        }, 
+        "enum_type": {
+          "type": "object"
+        }, 
+        "service": {
+          "type": "object"
+        }, 
+        "extension": {
+          "type": "object"
+        }, 
+        "options": {
+          "type": "object"
+        }, 
+        "source_code_info": {
+          "type": "object"
+        }, 
+        "public_dependency": {
+          "type": "integer"
+        }, 
+        "weak_dependency": {
+          "type": "integer"
+        }, 
+        "syntax": {
+          "type": "string"
+        }
+      }
+    }, 
+    "ServiceDescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "method": {
+          "type": "object"
+        }, 
+        "options": {
+          "type": "object"
+        }
+      }
+    }, 
+    "FileDescriptorSet": {
+      "type": "object", 
+      "properties": {
+        "file": {
+          "type": "object"
+        }
+      }
+    }, 
+    "GeneratedCodeInfo": {
+      "type": "object", 
+      "properties": {
+        "annotation": {
+          "type": "object"
+        }
+      }
+    }, 
+    "MethodDescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "input_type": {
+          "type": "string"
+        }, 
+        "output_type": {
+          "type": "string"
+        }, 
+        "options": {
+          "type": "object"
+        }, 
+        "client_streaming": {
+          "type": "boolean"
+        }, 
+        "server_streaming": {
+          "type": "boolean"
+        }
+      }
+    }, 
+    "FieldDescriptorProto": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "extendee": {
+          "type": "string"
+        }, 
+        "number": {
+          "type": "integer"
+        }, 
+        "label": {
+          "type": "object"
+        }, 
+        "type": {
+          "type": "object"
+        }, 
+        "type_name": {
+          "type": "string"
+        }, 
+        "default_value": {
+          "type": "string"
+        }, 
+        "options": {
+          "type": "object"
+        }, 
+        "oneof_index": {
+          "type": "integer"
+        }, 
+        "json_name": {
+          "type": "string"
+        }
+      }
+    }, 
+    "google.protobuf.DescriptorProto.ReservedRange": {
+      "type": "object", 
+      "properties": {
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "DOMAIN": {
+    "GetRnaQuantificationSetRequest": {
+      "rna_quantification_set_id": {
+        "type": "string"
+      }
+    }, 
+    "SearchRnaQuantificationsResponse": {
+      "rna_quantifications": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchExpressionLevelsRequest": {
+      "rna_quantification_id": {
+        "type": "string"
+      }, 
+      "feature_ids": {
+        "type": "string"
+      }, 
+      "threshold": {
+        "type": "number"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "GetExpressionLevelRequest": {
+      "expression_level_id": {
+        "type": "string"
+      }
+    }, 
+    "SearchRnaQuantificationsRequest": {
+      "rna_quantification_set_id": {
+        "type": "string"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }, 
+      "bio_sample_id": {
+        "type": "string"
+      }
+    }, 
+    "GetRnaQuantificationRequest": {
+      "rna_quantification_id": {
+        "type": "string"
+      }
+    }, 
+    "SearchRnaQuantificationSetsResponse": {
+      "rna_quantification_sets": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchExpressionLevelsResponse": {
+      "expression_levels": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchRnaQuantificationSetsRequest": {
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }
+  }
+}

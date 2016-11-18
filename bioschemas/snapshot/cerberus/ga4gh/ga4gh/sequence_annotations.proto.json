@@ -1,0 +1,119 @@
+{
+  "DOMAIN": {
+    "ValsEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "AttributeValue": {
+      "string_value": {
+        "type": "string"
+      }, 
+      "external_identifier": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "ontology_term": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Feature": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "gene_symbol": {
+        "type": "string"
+      }, 
+      "parent_id": {
+        "type": "string"
+      }, 
+      "child_ids": {
+        "type": "string"
+      }, 
+      "feature_set_id": {
+        "type": "string"
+      }, 
+      "reference_name": {
+        "type": "string"
+      }, 
+      "start": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }, 
+      "strand": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "feature_type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "attributes": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "AttributeValueList": {
+      "values": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "FeatureSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "reference_set_id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "source_uri": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Attributes": {
+      "vals": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}

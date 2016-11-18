@@ -1,0 +1,156 @@
+{
+  "definitions": {
+    "PhenotypeAssociationSet": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "EnvironmentalContext": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "environment_type": {
+          "type": "object"
+        }, 
+        "description": {
+          "type": "string"
+        }
+      }
+    }, 
+    "PhenotypeInstance": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "type": {
+          "type": "object"
+        }, 
+        "qualifier": {
+          "type": "object"
+        }, 
+        "age_of_onset": {
+          "type": "object"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Evidence": {
+      "type": "object", 
+      "properties": {
+        "evidence_type": {
+          "type": "object"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.FeaturePhenotypeAssociation.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.PhenotypeAssociationSet.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "FeaturePhenotypeAssociation": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "phenotype_association_set_id": {
+          "type": "string"
+        }, 
+        "feature_ids": {
+          "type": "string"
+        }, 
+        "evidence": {
+          "type": "object"
+        }, 
+        "phenotype": {
+          "type": "object"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "environmental_contexts": {
+          "type": "object"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.Evidence.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.PhenotypeInstance.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

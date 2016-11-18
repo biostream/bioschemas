@@ -1,0 +1,77 @@
+{
+  "definitions": {
+    "SearchReadGroupSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "read_group_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchReadsRequest": {
+      "type": "object", 
+      "properties": {
+        "read_group_ids": {
+          "type": "string"
+        }, 
+        "reference_id": {
+          "type": "string"
+        }, 
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchReadGroupSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "bio_sample_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetReadGroupSetRequest": {
+      "type": "object", 
+      "properties": {
+        "read_group_set_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchReadsResponse": {
+      "type": "object", 
+      "properties": {
+        "alignments": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

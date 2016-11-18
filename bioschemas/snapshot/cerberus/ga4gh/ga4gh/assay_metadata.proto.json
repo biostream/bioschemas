@@ -1,0 +1,94 @@
+{
+  "DOMAIN": {
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Experiment": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "message_create_time": {
+        "type": "string"
+      }, 
+      "message_update_time": {
+        "type": "string"
+      }, 
+      "run_time": {
+        "type": "string"
+      }, 
+      "molecule": {
+        "type": "string"
+      }, 
+      "strategy": {
+        "type": "string"
+      }, 
+      "selection": {
+        "type": "string"
+      }, 
+      "library": {
+        "type": "string"
+      }, 
+      "library_layout": {
+        "type": "string"
+      }, 
+      "instrument_model": {
+        "type": "string"
+      }, 
+      "instrument_data_file": {
+        "type": "string"
+      }, 
+      "sequencing_center": {
+        "type": "string"
+      }, 
+      "platform_unit": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Analysis": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "created": {
+        "type": "string"
+      }, 
+      "updated": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "software": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}

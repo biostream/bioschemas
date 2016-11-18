@@ -1,0 +1,61 @@
+{
+  "DOMAIN": {
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Program": {
+      "command_line": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "prev_program_id": {
+        "type": "string"
+      }, 
+      "version": {
+        "type": "string"
+      }
+    }, 
+    "OntologyTerm": {
+      "id": {
+        "type": "string"
+      }, 
+      "term": {
+        "type": "string"
+      }, 
+      "source_name": {
+        "type": "string"
+      }, 
+      "source_version": {
+        "type": "string"
+      }
+    }, 
+    "Dataset": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}

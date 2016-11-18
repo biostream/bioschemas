@@ -1,0 +1,120 @@
+{
+  "DOMAIN": {
+    "PhenotypeInstance": {
+      "id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "qualifier": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "age_of_onset": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Evidence": {
+      "evidence_type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "EnvironmentalContext": {
+      "id": {
+        "type": "string"
+      }, 
+      "environment_type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "description": {
+        "type": "string"
+      }
+    }, 
+    "FeaturePhenotypeAssociation": {
+      "id": {
+        "type": "string"
+      }, 
+      "phenotype_association_set_id": {
+        "type": "string"
+      }, 
+      "feature_ids": {
+        "type": "string"
+      }, 
+      "evidence": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "phenotype": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "environmental_contexts": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "PhenotypeAssociationSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "definitions": {
+    "ExpressionUnit": {
+      "type": "object", 
+      "properties": {
+        "EXPRESSION_UNIT_UNSPECIFIED": {
+          "type": 0
+        }, 
+        "FPKM": {
+          "type": 1
+        }, 
+        "TPM": {
+          "type": 2
+        }
+      }
+    }, 
+    "RnaQuantification": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "read_group_ids": {
+          "type": "string"
+        }, 
+        "programs": {
+          "type": "object"
+        }, 
+        "feature_set_ids": {
+          "type": "string"
+        }, 
+        "rna_quantification_set_id": {
+          "type": "string"
+        }, 
+        "bio_sample_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "RnaQuantificationSet": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }
+      }
+    }, 
+    "ExpressionLevel": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "feature_id": {
+          "type": "string"
+        }, 
+        "rna_quantification_id": {
+          "type": "string"
+        }, 
+        "raw_read_count": {
+          "type": "number"
+        }, 
+        "expression": {
+          "type": "number"
+        }, 
+        "is_normalized": {
+          "type": "boolean"
+        }, 
+        "units": {
+          "type": "object"
+        }, 
+        "score": {
+          "type": "number"
+        }, 
+        "conf_interval_low": {
+          "type": "number"
+        }, 
+        "conf_interval_high": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

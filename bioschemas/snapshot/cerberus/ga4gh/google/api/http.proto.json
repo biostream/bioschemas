@@ -1,0 +1,52 @@
+{
+  "DOMAIN": {
+    "CustomHttpPattern": {
+      "kind": {
+        "type": "string"
+      }, 
+      "path": {
+        "type": "string"
+      }
+    }, 
+    "HttpRule": {
+      "selector": {
+        "type": "string"
+      }, 
+      "get": {
+        "type": "string"
+      }, 
+      "put": {
+        "type": "string"
+      }, 
+      "post": {
+        "type": "string"
+      }, 
+      "delete": {
+        "type": "string"
+      }, 
+      "patch": {
+        "type": "string"
+      }, 
+      "body": {
+        "type": "string"
+      }, 
+      "custom": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "additional_bindings": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Http": {
+      "rules": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}

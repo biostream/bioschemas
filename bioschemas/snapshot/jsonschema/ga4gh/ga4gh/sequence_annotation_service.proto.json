@@ -1,0 +1,91 @@
+{
+  "definitions": {
+    "SearchFeatureSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "feature_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchFeatureSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetFeatureSetRequest": {
+      "type": "object", 
+      "properties": {
+        "feature_set_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchFeaturesRequest": {
+      "type": "object", 
+      "properties": {
+        "feature_set_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "gene_symbol": {
+          "type": "string"
+        }, 
+        "parent_id": {
+          "type": "string"
+        }, 
+        "reference_name": {
+          "type": "string"
+        }, 
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "feature_types": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetFeatureRequest": {
+      "type": "object", 
+      "properties": {
+        "feature_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchFeaturesResponse": {
+      "type": "object", 
+      "properties": {
+        "features": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

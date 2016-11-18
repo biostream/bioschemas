@@ -1,0 +1,128 @@
+{
+  "DOMAIN": {
+    "SearchPhenotypeAssociationSetsRequest": {
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchPhenotypeAssociationSetsResponse": {
+      "phenotype_association_sets": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchPhenotypesRequest": {
+      "phenotype_association_set_id": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "qualifiers": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "age_of_onset": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchPhenotypesResponse": {
+      "phenotypes": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "ExternalIdentifierQuery": {
+      "ids": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "SearchGenotypePhenotypeRequest": {
+      "phenotype_association_set_id": {
+        "type": "string"
+      }, 
+      "feature_ids": {
+        "type": "string"
+      }, 
+      "phenotype_ids": {
+        "type": "string"
+      }, 
+      "evidence": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchGenotypePhenotypeResponse": {
+      "associations": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "OntologyTermQuery": {
+      "terms": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "EvidenceQuery": {
+      "evidenceType": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "external_identifiers": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "definitions": {
+    "Project": {
+      "type": "object", 
+      "properties": {}
+    }, 
+    "Resource": {
+      "type": "object", 
+      "properties": {
+        "type": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "location": {
+          "type": "string"
+        }, 
+        "mimeType": {
+          "type": "string"
+        }, 
+        "checksum": {
+          "type": "string"
+        }, 
+        "size": {
+          "type": "integer"
+        }, 
+        "datasetID": {
+          "type": "string"
+        }, 
+        "format": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "created": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }, 
+        "id": {
+          "type": "string"
+        }, 
+        "gid": {
+          "type": "string"
+        }, 
+        "class": {
+          "type": "string"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "string"
+        }
+      }
+    }, 
+    "Dataset": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Sample": {
+      "type": "object", 
+      "properties": {}
+    }, 
+    "ohsu.schema.Resource.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "string"
+        }
+      }
+    }, 
+    "Individual": {
+      "type": "object", 
+      "properties": {}
+    }, 
+    "ohsu.schema.Dataset.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

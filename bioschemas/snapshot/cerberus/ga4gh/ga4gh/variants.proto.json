@@ -1,0 +1,147 @@
+{
+  "DOMAIN": {
+    "VariantSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "reference_set_id": {
+        "type": "string"
+      }, 
+      "metadata": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "VariantSetMetadata": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "number": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Call": {
+      "call_set_name": {
+        "type": "string"
+      }, 
+      "call_set_id": {
+        "type": "string"
+      }, 
+      "genotype": {
+        "type": "integer"
+      }, 
+      "phaseset": {
+        "type": "string"
+      }, 
+      "genotype_likelihood": {
+        "type": "number"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "CallSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "bio_sample_id": {
+        "type": "string"
+      }, 
+      "variant_set_ids": {
+        "type": "string"
+      }, 
+      "created": {
+        "type": "integer"
+      }, 
+      "updated": {
+        "type": "integer"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }, 
+    "Variant": {
+      "id": {
+        "type": "string"
+      }, 
+      "variant_set_id": {
+        "type": "string"
+      }, 
+      "names": {
+        "type": "string"
+      }, 
+      "created": {
+        "type": "integer"
+      }, 
+      "updated": {
+        "type": "integer"
+      }, 
+      "reference_name": {
+        "type": "string"
+      }, 
+      "start": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }, 
+      "reference_bases": {
+        "type": "string"
+      }, 
+      "alternate_bases": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": {
+          "type": "dict"
+        }
+      }, 
+      "calls": {
+        "type": {
+          "type": "dict"
+        }
+      }
+    }
+  }
+}
