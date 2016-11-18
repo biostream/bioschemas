@@ -5,9 +5,7 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "AttributeValue": {
@@ -15,14 +13,10 @@
         "type": "string"
       }, 
       "external_identifier": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "ontology_term": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "InfoEntry": {
@@ -30,9 +24,7 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Feature": {
@@ -64,26 +56,18 @@
         "type": "integer"
       }, 
       "strand": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "feature_type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "attributes": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "AttributeValueList": {
       "values": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "FeatureSet": {
@@ -103,16 +87,12 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Attributes": {
       "vals": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }

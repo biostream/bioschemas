@@ -11,36 +11,26 @@
         "type": "string"
       }, 
       "stats": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "read_groups": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "LinearAlignment": {
       "position": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "mapping_quality": {
         "type": "integer"
       }, 
       "cigar": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "CigarUnit": {
       "operation": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "operation_length": {
         "type": "integer"
@@ -78,9 +68,7 @@
         "type": "boolean"
       }, 
       "alignment": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "secondary_alignment": {
         "type": "boolean"
@@ -95,14 +83,10 @@
         "type": "integer"
       }, 
       "next_mate_position": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "ReadGroup": {
@@ -125,9 +109,7 @@
         "type": "string"
       }, 
       "experiment": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "predicted_insert_size": {
         "type": "integer"
@@ -139,22 +121,16 @@
         "type": "integer"
       }, 
       "stats": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "programs": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "reference_set_id": {
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "InfoEntry": {
@@ -162,9 +138,7 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Operation": {

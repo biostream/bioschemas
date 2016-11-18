@@ -151,7 +151,7 @@ def generate_cerberus(request, response):
     def _toTypeName(f):
         """ simplify, embedded types are dicts """
         if f.type_name:
-            return {"type": "dict"}
+            return "dict"
         return STRING_TYPE[int(f.type)]
 
     for proto_file, output in simplify_input(request, _toTypeName):

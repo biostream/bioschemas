@@ -33,9 +33,7 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "id": {
         "type": "string"
@@ -63,9 +61,7 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Sample": {}, 

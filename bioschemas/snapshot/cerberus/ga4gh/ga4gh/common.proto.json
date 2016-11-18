@@ -8,9 +8,7 @@
         "type": "integer"
       }, 
       "strand": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "GAException": {

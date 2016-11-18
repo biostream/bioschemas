@@ -2,9 +2,7 @@
   "DOMAIN": {
     "OneofOptions": {
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "CType": {
@@ -45,9 +43,7 @@
         "type": "string"
       }, 
       "optimize_for": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "java_multiple_files": {
         "type": "boolean"
@@ -83,9 +79,7 @@
         "type": "string"
       }, 
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Location": {
@@ -110,9 +104,7 @@
         "type": "string"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Type": {
@@ -176,44 +168,28 @@
         "type": "string"
       }, 
       "field": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "nested_type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "enum_type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "extension_range": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "extension": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "oneof_decl": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "reserved_range": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "reserved_name": {
         "type": "string"
@@ -221,9 +197,7 @@
     }, 
     "UninterpretedOption": {
       "name": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "identifier_value": {
         "type": "string"
@@ -257,9 +231,7 @@
     }, 
     "FieldOptions": {
       "ctype": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "packed": {
         "type": "boolean"
@@ -271,17 +243,13 @@
         "type": "boolean"
       }, 
       "jstype": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "weak": {
         "type": "boolean"
       }, 
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "MethodOptions": {
@@ -289,9 +257,7 @@
         "type": "boolean"
       }, 
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "MessageOptions": {
@@ -308,9 +274,7 @@
         "type": "boolean"
       }, 
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "ExtensionRange": {
@@ -326,9 +290,7 @@
         "type": "boolean"
       }, 
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "EnumValueDescriptorProto": {
@@ -339,9 +301,7 @@
         "type": "integer"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Annotation": {
@@ -368,9 +328,7 @@
     }, 
     "SourceCodeInfo": {
       "location": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "EnumDescriptorProto": {
@@ -378,14 +336,10 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "JSType": {
@@ -404,9 +358,7 @@
         "type": "boolean"
       }, 
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "FileDescriptorProto": {
@@ -420,34 +372,22 @@
         "type": "string"
       }, 
       "message_type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "enum_type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "service": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "extension": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "source_code_info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "public_dependency": {
         "type": "integer"
@@ -464,28 +404,20 @@
         "type": "string"
       }, 
       "method": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "FileDescriptorSet": {
       "file": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "GeneratedCodeInfo": {
       "annotation": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "MethodDescriptorProto": {
@@ -499,9 +431,7 @@
         "type": "string"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "client_streaming": {
         "type": "boolean"
@@ -521,14 +451,10 @@
         "type": "integer"
       }, 
       "label": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "type_name": {
         "type": "string"
@@ -537,9 +463,7 @@
         "type": "string"
       }, 
       "options": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "oneof_index": {
         "type": "integer"
@@ -556,9 +480,7 @@
         "type": "boolean"
       }, 
       "uninterpreted_option": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }

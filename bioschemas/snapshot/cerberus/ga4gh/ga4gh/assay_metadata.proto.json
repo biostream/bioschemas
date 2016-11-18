@@ -5,9 +5,7 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Experiment": {
@@ -57,9 +55,7 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Analysis": {
@@ -85,9 +81,7 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }

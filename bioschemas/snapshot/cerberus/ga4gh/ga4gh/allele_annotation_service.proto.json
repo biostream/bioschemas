@@ -33,9 +33,7 @@
         "type": "integer"
       }, 
       "effects": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "page_size": {
         "type": "integer"
@@ -46,9 +44,7 @@
     }, 
     "SearchVariantAnnotationsResponse": {
       "variant_annotations": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -56,9 +52,7 @@
     }, 
     "SearchVariantAnnotationSetsResponse": {
       "variant_annotation_sets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"

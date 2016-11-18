@@ -5,30 +5,22 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "ListValue": {
       "values": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Struct": {
       "fields": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Value": {
       "null_value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "number_value": {
         "type": "number"
@@ -40,14 +32,10 @@
         "type": "boolean"
       }, 
       "struct_value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "list_value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "NullValue": {

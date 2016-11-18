@@ -13,9 +13,7 @@
     }, 
     "SearchPhenotypeAssociationSetsResponse": {
       "phenotype_association_sets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -32,19 +30,13 @@
         "type": "string"
       }, 
       "type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "qualifiers": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "age_of_onset": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "page_size": {
         "type": "integer"
@@ -55,9 +47,7 @@
     }, 
     "SearchPhenotypesResponse": {
       "phenotypes": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -65,9 +55,7 @@
     }, 
     "ExternalIdentifierQuery": {
       "ids": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "SearchGenotypePhenotypeRequest": {
@@ -81,9 +69,7 @@
         "type": "string"
       }, 
       "evidence": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "page_size": {
         "type": "integer"
@@ -94,9 +80,7 @@
     }, 
     "SearchGenotypePhenotypeResponse": {
       "associations": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -104,24 +88,18 @@
     }, 
     "OntologyTermQuery": {
       "terms": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "EvidenceQuery": {
       "evidenceType": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "description": {
         "type": "string"
       }, 
       "external_identifiers": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }

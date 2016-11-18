@@ -5,27 +5,19 @@
         "type": "string"
       }, 
       "type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "qualifier": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "age_of_onset": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "description": {
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "InfoEntry": {
@@ -33,24 +25,18 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Evidence": {
       "evidence_type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "description": {
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "EnvironmentalContext": {
@@ -58,9 +44,7 @@
         "type": "string"
       }, 
       "environment_type": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "description": {
         "type": "string"
@@ -77,27 +61,19 @@
         "type": "string"
       }, 
       "evidence": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "phenotype": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "description": {
         "type": "string"
       }, 
       "environmental_contexts": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "PhenotypeAssociationSet": {
@@ -111,9 +87,7 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }

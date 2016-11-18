@@ -2,9 +2,7 @@
   "DOMAIN": {
     "SearchReadGroupSetsResponse": {
       "read_group_sets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -54,9 +52,7 @@
     }, 
     "SearchReadsResponse": {
       "alignments": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"

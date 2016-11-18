@@ -2,9 +2,7 @@
   "DOMAIN": {
     "SearchFeatureSetsResponse": {
       "feature_sets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -65,9 +63,7 @@
     }, 
     "SearchFeaturesResponse": {
       "features": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"

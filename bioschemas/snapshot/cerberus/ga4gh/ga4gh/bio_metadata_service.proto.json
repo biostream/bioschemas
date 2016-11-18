@@ -24,9 +24,7 @@
     }, 
     "SearchBioSamplesResponse": {
       "biosamples": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -53,9 +51,7 @@
     }, 
     "SearchIndividualsResponse": {
       "individuals": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"

@@ -7,9 +7,7 @@
     }, 
     "SearchReferenceSetsResponse": {
       "reference_sets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -59,9 +57,7 @@
     }, 
     "SearchReferencesResponse": {
       "references": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"

@@ -36,39 +36,25 @@
         "type": "string"
       }, 
       "effects": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "hgvs_annotation": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "cdna_location": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "cds_location": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "protein_location": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "analysis_results": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "VariantAnnotationSet": {
@@ -82,9 +68,7 @@
         "type": "string"
       }, 
       "analysis": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "InfoEntry": {
@@ -92,9 +76,7 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "VariantAnnotation": {
@@ -111,14 +93,10 @@
         "type": "string"
       }, 
       "transcript_effects": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "AnalysisResult": {

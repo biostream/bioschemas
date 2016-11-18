@@ -31,21 +31,15 @@
         "type": "string"
       }, 
       "custom": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "additional_bindings": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Http": {
       "rules": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }

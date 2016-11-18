@@ -19,9 +19,7 @@
     }, 
     "SearchVariantsResponse": {
       "variants": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -68,9 +66,7 @@
     }, 
     "SearchVariantSetsResponse": {
       "variant_sets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"
@@ -83,9 +79,7 @@
     }, 
     "SearchCallSetsResponse": {
       "call_sets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"

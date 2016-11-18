@@ -25,9 +25,7 @@
         "type": "string"
       }, 
       "programs": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "feature_set_ids": {
         "type": "string"
@@ -73,9 +71,7 @@
         "type": "boolean"
       }, 
       "units": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "score": {
         "type": "number"

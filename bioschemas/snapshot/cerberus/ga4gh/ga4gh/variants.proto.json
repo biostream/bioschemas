@@ -14,9 +14,7 @@
         "type": "string"
       }, 
       "metadata": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "InfoEntry": {
@@ -24,9 +22,7 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "VariantSetMetadata": {
@@ -49,9 +45,7 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Call": {
@@ -71,9 +65,7 @@
         "type": "number"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "CallSet": {
@@ -96,9 +88,7 @@
         "type": "integer"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Variant": {
@@ -133,14 +123,10 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "calls": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }

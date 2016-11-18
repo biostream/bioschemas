@@ -10,9 +10,7 @@
     }, 
     "SearchDatasetsResponse": {
       "datasets": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "next_page_token": {
         "type": "string"

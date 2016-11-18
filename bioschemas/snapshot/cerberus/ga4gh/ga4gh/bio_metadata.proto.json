@@ -5,9 +5,7 @@
         "type": "string"
       }, 
       "value": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "Individual": {
@@ -30,19 +28,13 @@
         "type": "string"
       }, 
       "species": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "sex": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }, 
     "BioSample": {
@@ -59,9 +51,7 @@
         "type": "string"
       }, 
       "disease": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }, 
       "created": {
         "type": "string"
@@ -73,9 +63,7 @@
         "type": "string"
       }, 
       "info": {
-        "type": {
-          "type": "dict"
-        }
+        "type": "dict"
       }
     }
   }
