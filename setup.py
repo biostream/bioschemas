@@ -15,4 +15,5 @@ setup(name='Bioschemas',
       ],
       test_suite='nose.collector',
       tests_require=['nose'],
+      scripts=['bioschemas/bin/bioschemas-snapshot'],
 )

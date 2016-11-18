@@ -30,13 +30,30 @@ Ran 4 tests in 0.100s
 OK
 ```
 
-
 ### usage
+```
+$ bioschemas-snapshot --help
+usage: bioschemas-snapshot [-h] [-o OUTPUT] [-v]
+
+Extract bioschemas schema directory [ga4gh,bmeg,gdc]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Extract to this directory name. Must not already
+                        exist; it will be created as well as missing parent
+                        directories.
+  -v, --version         Print git hashes
+```
+
+### python usage
+
 ```
 import  bioschemas
 
 bioschemas.schema_path()
 >> '/home/someuser/bioschemas/bioschemas/snapshot'
+
 
  bioschemas.json_schema('Resource')
 >> '{"type": "object", "properties": {"mimeType": {"type": "string"}, "info": {"type": "object"}, "name": {"type": "string"}, "format": {"type": "string"}, "checksum": {"type": "string"}, "description": {"type": "string"}, "created": {"type": "string"}, "class": {"type": "string"}, "gid": {"type": "string"}, "location": {"type": "string"}, "type": {"type": "string"}, "id": {"type": "string"}, "datasetID": {"type": "string"}, "size": {"type": "integer"}}}'
@@ -47,6 +64,33 @@ bioschemas.schema_path()
 bioschemas.git_hashes()
 >>  '{"bioschemas": "067b1d2", "created_at": "2016-11-18T04:58:19.593297Z", "gdc": "288f042", "bmeg": "537f94a"}'
 
+```
+
+The snapshot can be used by any language context and has the following structure:
+```
+.
+├── cerberus
+│   ├── bmeg
+│   ├── ga4gh
+│   │   ├── ga4gh
+│   │   └── google
+│   │       ├── api
+│   │       └── protobuf
+│   └── gdc
+├── jsonschema
+│   ├── bmeg
+│   ├── ga4gh
+│   │   ├── ga4gh
+│   │   └── google
+│   │       ├── api
+│   │       └── protobuf
+│   └── gdc
+└── proto
+    ├── bmeg
+    └── ga4gh
+        ├── ga4gh
+        └── google
+            └── api
 ```
 
 
