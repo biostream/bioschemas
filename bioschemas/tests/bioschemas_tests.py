@@ -25,3 +25,11 @@ def test_should_cerberus_schema():
 
 def test_should_return_git_hashes():
     assert bioschemas.git_hashes()
+
+
+def test_should_have_gdc_submission_templates():
+    assert bioschemas.gdc_submission_templates()
+
+
+def test_should_return_submission_template_by_type():
+    assert bioschemas.gdc_submission_template('file')

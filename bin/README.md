@@ -10,6 +10,10 @@ usage
 $ cd bin
 $ ./generate-jsonschema.sh
 $ ./generate-cereberus.sh
+
+# or
+./package-all.sh
+
 ```
 
 

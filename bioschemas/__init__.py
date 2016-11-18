@@ -12,6 +12,7 @@ import sys
 # complete jsonschemas
 json_schemas = {'definitions': {}}
 cerberus_schemas = {'domains': {}}
+gdc_templates = {}
 
 
 def _init():
@@ -47,20 +48,22 @@ def _init():
             fragment = json.load(file_object)
             for key in fragment['DOMAIN'].keys():
                 domains[key] = fragment['DOMAIN'][key]
+    global gdc_templates
+    gdc_templates = json.loads(gdc_submission_templates())
 
 
 def json_schema(key):
     """
-    return a json string of a given schema
+    return a json_schemas dict of a given schema
     """
-    return json.dumps(json_schemas['definitions'][key])
+    return json_schemas['definitions'][key]
 
 
 def cerberus_schema(key):
     """
-    return a cerberus string of a given schema
+    return a cerberus dict of a given schema
     """
-    return json.dumps(cerberus_schemas['domains'][key])
+    return cerberus_schemas['domains'][key]
 
 
 def schema_path():
@@ -77,6 +80,24 @@ def git_hashes():
     path = os.path.join(os.path.dirname(__file__), "snapshot/git_hashes.json")
     with open(path, "r") as myfile:
         return myfile.read().strip()
+
+
+def gdc_submission_templates():
+    """
+    return json string of templates
+    """
+    path = os.path.join(os.path.dirname(__file__),
+                        "snapshot/gdc_submission_templates.json")
+    with open(path, "r") as myfile:
+        return myfile.read().strip()
+
+
+def gdc_submission_template(type):
+    """
+    return dict of template for a given type
+    """
+    return gdc_templates[type]
+
 
 # load all
 _init()
