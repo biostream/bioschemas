@@ -1,0 +1,114 @@
+{
+  "DOMAIN": {
+    "HGVSAnnotation": {
+      "genomic": {
+        "type": "string"
+      }, 
+      "transcript": {
+        "type": "string"
+      }, 
+      "protein": {
+        "type": "string"
+      }
+    }, 
+    "AlleleLocation": {
+      "start": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }, 
+      "reference_sequence": {
+        "type": "string"
+      }, 
+      "alternate_sequence": {
+        "type": "string"
+      }
+    }, 
+    "TranscriptEffect": {
+      "id": {
+        "type": "string"
+      }, 
+      "feature_id": {
+        "type": "string"
+      }, 
+      "alternate_bases": {
+        "type": "string"
+      }, 
+      "effects": {
+        "type": "dict"
+      }, 
+      "hgvs_annotation": {
+        "type": "dict"
+      }, 
+      "cdna_location": {
+        "type": "dict"
+      }, 
+      "cds_location": {
+        "type": "dict"
+      }, 
+      "protein_location": {
+        "type": "dict"
+      }, 
+      "analysis_results": {
+        "type": "dict"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "VariantAnnotationSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "variant_set_id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "analysis": {
+        "type": "dict"
+      }
+    }, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "dict"
+      }
+    }, 
+    "VariantAnnotation": {
+      "id": {
+        "type": "string"
+      }, 
+      "variant_id": {
+        "type": "string"
+      }, 
+      "variant_annotation_set_id": {
+        "type": "string"
+      }, 
+      "created": {
+        "type": "string"
+      }, 
+      "transcript_effects": {
+        "type": "dict"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "AnalysisResult": {
+      "analysis_id": {
+        "type": "string"
+      }, 
+      "result": {
+        "type": "string"
+      }, 
+      "score": {
+        "type": "integer"
+      }
+    }
+  }
+}

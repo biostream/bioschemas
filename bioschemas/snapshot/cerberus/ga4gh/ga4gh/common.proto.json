@@ -1,0 +1,45 @@
+{
+  "DOMAIN": {
+    "Position": {
+      "reference_name": {
+        "type": "string"
+      }, 
+      "position": {
+        "type": "integer"
+      }, 
+      "strand": {
+        "type": "dict"
+      }
+    }, 
+    "GAException": {
+      "error_code": {
+        "type": "integer"
+      }, 
+      "message": {
+        "type": "string"
+      }
+    }, 
+    "ExternalIdentifier": {
+      "database": {
+        "type": "string"
+      }, 
+      "identifier": {
+        "type": "string"
+      }, 
+      "version": {
+        "type": "string"
+      }
+    }, 
+    "Strand": {
+      "STRAND_UNSPECIFIED": {
+        "type": 0
+      }, 
+      "NEG_STRAND": {
+        "type": 1
+      }, 
+      "POS_STRAND": {
+        "type": 2
+      }
+    }
+  }
+}

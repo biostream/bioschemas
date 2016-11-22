@@ -1,0 +1,70 @@
+{
+  "DOMAIN": {
+    "Project": {}, 
+    "Resource": {
+      "type": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "location": {
+        "type": "string"
+      }, 
+      "mimeType": {
+        "type": "string"
+      }, 
+      "checksum": {
+        "type": "string"
+      }, 
+      "size": {
+        "type": "integer"
+      }, 
+      "datasetID": {
+        "type": "string"
+      }, 
+      "format": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "created": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "gid": {
+        "type": "string"
+      }, 
+      "class": {
+        "type": "string"
+      }
+    }, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "string"
+      }
+    }, 
+    "Dataset": {
+      "name": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "Sample": {}, 
+    "Individual": {}
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "definitions": {
+    "FieldsEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "google.protobuf.Struct.FieldsEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Struct": {
+      "type": "object", 
+      "properties": {
+        "fields": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Value": {
+      "type": "object", 
+      "properties": {
+        "null_value": {
+          "type": "object"
+        }, 
+        "number_value": {
+          "type": "number"
+        }, 
+        "string_value": {
+          "type": "string"
+        }, 
+        "bool_value": {
+          "type": "boolean"
+        }, 
+        "struct_value": {
+          "type": "object"
+        }, 
+        "list_value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ListValue": {
+      "type": "object", 
+      "properties": {
+        "values": {
+          "type": "object"
+        }
+      }
+    }, 
+    "NullValue": {
+      "type": "object", 
+      "properties": {
+        "NULL_VALUE": {
+          "type": 0
+        }
+      }
+    }
+  }
+}

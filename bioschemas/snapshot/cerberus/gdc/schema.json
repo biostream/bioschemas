@@ -1,0 +1,3153 @@
+{
+  "DOMAIN": {
+    "experiment_metadata": {
+      "read_groups": {
+        "type": "dict"
+      }, 
+      "files": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }
+    }, 
+    "program": {
+      "dbgap_accession_number": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }
+    }, 
+    "copy_number_liftover_workflow": {
+      "project_id": {
+        "type": "string"
+      }, 
+      "submitted_tangent_copy_numbers": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "somatic_mutation_calling_workflow": {
+      "project_id": {
+        "type": "string"
+      }, 
+      "aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "sample_level_maf": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "somatic_annotation_workflows": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "sample": {
+      "sample_type_id": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "time_between_excision_and_freezing": {
+        "type": "string"
+      }, 
+      "oct_embedded": {
+        "type": "string"
+      }, 
+      "tumor_code_id": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "intermediate_dimension": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "is_ffpe": {
+        "type": "boolean"
+      }, 
+      "pathology_report_uuid": {
+        "type": "string"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "tumor_descriptor": {
+        "type": "dict"
+      }, 
+      "sample_type": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "composition": {
+        "type": "dict"
+      }, 
+      "time_between_clamping_and_freezing": {
+        "type": "string"
+      }, 
+      "shortest_dimension": {
+        "type": "string"
+      }, 
+      "tumor_code": {
+        "type": "string"
+      }, 
+      "tissue_type": {
+        "type": "dict"
+      }, 
+      "days_to_sample_procurement": {
+        "type": "integer"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "freezing_method": {
+        "type": "string"
+      }, 
+      "current_weight": {
+        "type": "number"
+      }, 
+      "tissue_source_sites": {
+        "type": "dict"
+      }, 
+      "preservation_method": {
+        "type": "dict"
+      }, 
+      "days_to_collection": {
+        "type": "integer"
+      }, 
+      "initial_weight": {
+        "type": "number"
+      }, 
+      "longest_dimension": {
+        "type": "string"
+      }
+    }, 
+    "methylation_liftover_workflow": {
+      "submitted_methylation_beta_values": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "tag": {
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }
+    }, 
+    "run_metadata": {
+      "read_groups": {
+        "type": "dict"
+      }, 
+      "files": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }
+    }, 
+    "file": {
+      "data_subtypes": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "platforms": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "centers": {
+        "type": "dict"
+      }, 
+      "derived_files": {
+        "type": "dict"
+      }, 
+      "described_cases": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "archives": {
+        "type": "dict"
+      }, 
+      "samples": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategies": {
+        "type": "dict"
+      }, 
+      "tags": {
+        "type": "dict"
+      }, 
+      "analytes": {
+        "type": "dict"
+      }, 
+      "data_formats": {
+        "type": "dict"
+      }, 
+      "slides": {
+        "type": "dict"
+      }, 
+      "aliquots": {
+        "type": "dict"
+      }, 
+      "portions": {
+        "type": "dict"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "related_files": {
+        "type": "dict"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }
+    }, 
+    "simple_germline_variation": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "germline_mutation_calling_workflows": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "somatic_aggregation_workflow": {
+      "project_id": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "annotated_somatic_mutations": {
+        "type": "dict"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "slide_image": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "slides": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "archive": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "related_to_files": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "projects": {
+        "type": "dict"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "revision": {
+        "type": "number"
+      }
+    }, 
+    "read_group": {
+      "library_name": {
+        "type": "string"
+      }, 
+      "is_paired_end": {
+        "type": "boolean"
+      }, 
+      "size_selection_range": {
+        "type": "string"
+      }, 
+      "adapter_sequence": {
+        "type": "string"
+      }, 
+      "library_strand": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "library_preparation_kit_name": {
+        "type": "string"
+      }, 
+      "spike_ins_fasta": {
+        "type": "string"
+      }, 
+      "target_capture_kit_name": {
+        "type": "string"
+      }, 
+      "includes_spike_ins": {
+        "type": "boolean"
+      }, 
+      "library_preparation_kit_version": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "spike_ins_concentration": {
+        "type": "string"
+      }, 
+      "read_length": {
+        "type": "integer"
+      }, 
+      "sequencing_date": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "to_trim_adapter_sequence": {
+        "type": "boolean"
+      }, 
+      "RIN": {
+        "type": "number"
+      }, 
+      "platform": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "library_selection": {
+        "type": "dict"
+      }, 
+      "library_strategy": {
+        "type": "dict"
+      }, 
+      "library_preparation_kit_catalog_number": {
+        "type": "string"
+      }, 
+      "sequencing_center": {
+        "type": "string"
+      }, 
+      "target_capture_kit_target_region": {
+        "type": "string"
+      }, 
+      "target_capture_kit_version": {
+        "type": "string"
+      }, 
+      "aliquots": {
+        "type": "dict"
+      }, 
+      "adapter_name": {
+        "type": "string"
+      }, 
+      "read_group_name": {
+        "type": "string"
+      }, 
+      "library_preparation_kit_vendor": {
+        "type": "string"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "target_capture_kit_catalog_number": {
+        "type": "string"
+      }, 
+      "instrument_model": {
+        "type": "dict"
+      }, 
+      "base_caller_name": {
+        "type": "string"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "experiment_name": {
+        "type": "string"
+      }, 
+      "flow_cell_barcode": {
+        "type": "string"
+      }, 
+      "target_capture_kit_vendor": {
+        "type": "string"
+      }, 
+      "base_caller_version": {
+        "type": "string"
+      }
+    }, 
+    "family_history": {
+      "relationship_gender": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "relative_with_cancer_history": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "relationship_age_at_diagnosis": {
+        "type": "number"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "relationship_type": {
+        "type": "string"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "relationship_primary_diagnosis": {
+        "type": "string"
+      }
+    }, 
+    "publication": {
+      "files": {
+        "type": "dict"
+      }, 
+      "doi": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "pmid": {
+        "type": "string"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }
+    }, 
+    "platform": {
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }
+    }, 
+    "aligned_reads_metric": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "alignment_cocleaning_workflows": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "alignment_workflows": {
+        "type": "dict"
+      }
+    }, 
+    "demographic": {
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "gender": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "year_of_birth": {
+        "type": "number"
+      }, 
+      "race": {
+        "type": "dict"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "ethnicity": {
+        "type": "dict"
+      }, 
+      "year_of_death": {
+        "type": "number"
+      }
+    }, 
+    "portion": {
+      "creation_datetime": {
+        "type": "number"
+      }, 
+      "is_ffpe": {
+        "type": "boolean"
+      }, 
+      "weight": {
+        "type": "number"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "samples": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "centers": {
+        "type": "dict"
+      }, 
+      "portion_number": {
+        "type": "string"
+      }
+    }, 
+    "mirna_expression": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "mirna_expression_workflows": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "pathology_report": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "samples": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }
+    }, 
+    "somatic_annotation_workflow": {
+      "project_id": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "simple_somatic_mutations": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "treatment": {
+      "diagnoses": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "therapeutic_agents": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "days_to_treatment": {
+        "type": "number"
+      }, 
+      "treatment_intent_type": {
+        "type": "string"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "treatment_or_therapy": {
+        "type": "dict"
+      }
+    }, 
+    "mirna_expression_workflow": {
+      "project_id": {
+        "type": "string"
+      }, 
+      "aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "biospecimen_supplement": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "archives": {
+        "type": "dict"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }
+    }, 
+    "clinical": {
+      "year_of_diagnosis": {
+        "type": "number"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "gender": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "race": {
+        "type": "dict"
+      }, 
+      "age_at_diagnosis": {
+        "type": "number"
+      }, 
+      "icd_10": {
+        "type": "string"
+      }, 
+      "vital_status": {
+        "type": "dict"
+      }, 
+      "days_to_death": {
+        "type": "number"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "ethnicity": {
+        "type": "dict"
+      }
+    }, 
+    "experimental_strategy": {
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }
+    }, 
+    "exon_expression": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "rna_expression_workflows": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "submitted_methylation_beta_value": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "platform": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "aliquots": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "alignment_cocleaning_workflow": {
+      "submitted_aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitted_unaligned_reads_files": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "submitted_tangent_copy_number": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "aliquots": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "data_type": {
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }
+    }, 
+    "aliquot": {
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "analyte_type": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "amount": {
+        "type": "number"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "samples": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "analyte_type_id": {
+        "type": "dict"
+      }, 
+      "concentration": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "source_center": {
+        "type": "string"
+      }, 
+      "centers": {
+        "type": "dict"
+      }, 
+      "analytes": {
+        "type": "dict"
+      }
+    }, 
+    "methylation_beta_value": {
+      "project_id": {
+        "type": "string"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "platform": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "methylation_liftover_workflows": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "copy_number_segment": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "copy_number_liftover_workflows": {
+        "type": "dict"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "platform": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "read_group_qc": {
+      "read_groups": {
+        "type": "dict"
+      }, 
+      "submitted_aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "encoding": {
+        "type": "string"
+      }, 
+      "sequence_duplication_levels": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "basic_statistics": {
+        "type": "dict"
+      }, 
+      "per_base_sequence_content": {
+        "type": "dict"
+      }, 
+      "kmer_content": {
+        "type": "dict"
+      }, 
+      "percent_gc_content": {
+        "type": "integer"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "per_sequence_gc_content": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "per_base_n_content": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "adapter_content": {
+        "type": "dict"
+      }, 
+      "per_base_sequence_quality": {
+        "type": "dict"
+      }, 
+      "fastq_name": {
+        "type": "string"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "total_sequences": {
+        "type": "integer"
+      }, 
+      "sequence_length_distribution": {
+        "type": "dict"
+      }, 
+      "per_sequence_quality_score": {
+        "type": "dict"
+      }, 
+      "submitted_unaligned_reads_files": {
+        "type": "dict"
+      }, 
+      "per_tile_sequence_quality": {
+        "type": "dict"
+      }, 
+      "overrepresented_sequences": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "aligned_reads": {
+      "submitted_aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "alignment_cocleaning_workflows": {
+        "type": "dict"
+      }, 
+      "platform": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "submitted_unaligned_reads_files": {
+        "type": "dict"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "alignment_workflows": {
+        "type": "dict"
+      }
+    }, 
+    "analysis_metadata": {
+      "files": {
+        "type": "dict"
+      }, 
+      "submitted_aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }
+    }, 
+    "gene_expression": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "rna_expression_workflows": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "submitted_unaligned_reads": {
+      "read_groups": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "aligned_reads_index": {
+      "submitted_aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }
+    }, 
+    "masked_somatic_mutation": {
+      "somatic_aggregation_workflows": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "projects": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "annotation": {
+      "read_groups": {
+        "type": "dict"
+      }, 
+      "files": {
+        "type": "dict"
+      }, 
+      "classification": {
+        "type": "string"
+      }, 
+      "creator": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "clinical_supplements": {
+        "type": "dict"
+      }, 
+      "category": {
+        "type": "string"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "samples": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "status": {
+        "type": "string"
+      }, 
+      "analytes": {
+        "type": "dict"
+      }, 
+      "slides": {
+        "type": "dict"
+      }, 
+      "aliquots": {
+        "type": "dict"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "legacy_created_datetime": {
+        "type": "dict"
+      }, 
+      "legacy_updated_datetime": {
+        "type": "dict"
+      }, 
+      "portions": {
+        "type": "dict"
+      }, 
+      "notes": {
+        "type": "string"
+      }, 
+      "biospecimen_supplements": {
+        "type": "dict"
+      }
+    }, 
+    "annotated_somatic_mutation": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "somatic_annotation_workflows": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "exposure": {
+      "cigarettes_per_day": {
+        "type": "number"
+      }, 
+      "weight": {
+        "type": "number"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "alcohol_history": {
+        "type": "string"
+      }, 
+      "alcohol_intensity": {
+        "type": "string"
+      }, 
+      "bmi": {
+        "type": "number"
+      }, 
+      "years_smoked": {
+        "type": "number"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "height": {
+        "type": "number"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "pack_years_smoked": {
+        "type": "number"
+      }
+    }, 
+    "case": {
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "tissue_source_sites": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "projects": {
+        "type": "dict"
+      }
+    }, 
+    "data_subtype": {
+      "type": {
+        "type": "string"
+      }, 
+      "data_types": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }
+    }, 
+    "submitted_aligned_reads": {
+      "read_groups": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "simple_somatic_mutation": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "somatic_mutation_calling_workflows": {
+        "type": "dict"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "center": {
+      "code": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "short_name": {
+        "type": "string"
+      }, 
+      "namespace": {
+        "type": "string"
+      }, 
+      "center_type": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }
+    }, 
+    "filtered_copy_number_segment": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "copy_number_liftover_workflows": {
+        "type": "dict"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "rna_expression_workflow": {
+      "submitted_aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitted_unaligned_reads_files": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "aggregated_somatic_mutation": {
+      "somatic_aggregation_workflows": {
+        "type": "dict"
+      }, 
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "projects": {
+        "type": "dict"
+      }, 
+      "experimental_strategy": {
+        "type": "dict"
+      }
+    }, 
+    "clinical_supplement": {
+      "error_type": {
+        "type": "dict"
+      }, 
+      "data_type": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "file_name": {
+        "type": "string"
+      }, 
+      "md5sum": {
+        "type": "string"
+      }, 
+      "data_format": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "state_comment": {
+        "type": "string"
+      }, 
+      "archives": {
+        "type": "dict"
+      }, 
+      "data_category": {
+        "type": "dict"
+      }, 
+      "file_size": {
+        "type": "number"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "file_state": {
+        "type": "dict"
+      }
+    }, 
+    "data_format": {
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }
+    }, 
+    "project": {
+      "code": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "programs": {
+        "type": "dict"
+      }, 
+      "intended_release_date": {
+        "type": "string"
+      }, 
+      "released": {
+        "type": "boolean"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "primary_site": {
+        "type": "string"
+      }, 
+      "dbgap_accession_number": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "disease_type": {
+        "type": "string"
+      }
+    }, 
+    "slide": {
+      "percent_tumor_nuclei": {
+        "type": "number"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "percent_necrosis": {
+        "type": "number"
+      }, 
+      "percent_granulocyte_infiltration": {
+        "type": "number"
+      }, 
+      "percent_inflam_infiltration": {
+        "type": "number"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "percent_normal_cells": {
+        "type": "number"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "section_location": {
+        "type": "string"
+      }, 
+      "samples": {
+        "type": "dict"
+      }, 
+      "number_proliferating_cells": {
+        "type": "integer"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "percent_monocyte_infiltration": {
+        "type": "number"
+      }, 
+      "percent_lymphocyte_infiltration": {
+        "type": "number"
+      }, 
+      "percent_stromal_cells": {
+        "type": "number"
+      }, 
+      "percent_neutrophil_infiltration": {
+        "type": "number"
+      }, 
+      "portions": {
+        "type": "dict"
+      }, 
+      "percent_eosinophil_infiltration": {
+        "type": "number"
+      }, 
+      "percent_tumor_cells": {
+        "type": "number"
+      }
+    }, 
+    "diagnosis": {
+      "classification_of_tumor": {
+        "type": "dict"
+      }, 
+      "last_known_disease_status": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "primary_diagnosis": {
+        "type": "string"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "tumor_stage": {
+        "type": "string"
+      }, 
+      "age_at_diagnosis": {
+        "type": "number"
+      }, 
+      "vital_status": {
+        "type": "dict"
+      }, 
+      "morphology": {
+        "type": "string"
+      }, 
+      "days_to_death": {
+        "type": "number"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "days_to_last_known_disease_status": {
+        "type": "number"
+      }, 
+      "days_to_last_follow_up": {
+        "type": "number"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "days_to_recurrence": {
+        "type": "number"
+      }, 
+      "tumor_grade": {
+        "type": "string"
+      }, 
+      "tissue_or_organ_of_origin": {
+        "type": "string"
+      }, 
+      "days_to_birth": {
+        "type": "number"
+      }, 
+      "progression_or_recurrence": {
+        "type": "dict"
+      }, 
+      "prior_malignancy": {
+        "type": "dict"
+      }, 
+      "cases": {
+        "type": "dict"
+      }, 
+      "site_of_resection_or_biopsy": {
+        "type": "string"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }
+    }, 
+    "alignment_workflow": {
+      "submitted_aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitted_unaligned_reads_files": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "tissue_source_site": {
+      "code": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "project": {
+        "type": "string"
+      }, 
+      "bcr_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }
+    }, 
+    "germline_mutation_calling_workflow": {
+      "project_id": {
+        "type": "string"
+      }, 
+      "aligned_reads_files": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "workflow_end_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_link": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }, 
+      "workflow_type": {
+        "type": "dict"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "workflow_start_datetime": {
+        "type": "dict"
+      }, 
+      "workflow_version": {
+        "type": "string"
+      }
+    }, 
+    "analyte": {
+      "spectrophotometer_method": {
+        "type": "string"
+      }, 
+      "portions": {
+        "type": "dict"
+      }, 
+      "updated_datetime": {
+        "type": "dict"
+      }, 
+      "created_datetime": {
+        "type": "dict"
+      }, 
+      "analyte_type_id": {
+        "type": "dict"
+      }, 
+      "well_number": {
+        "type": "string"
+      }, 
+      "analyte_type": {
+        "type": "dict"
+      }, 
+      "submitter_id": {
+        "type": "string"
+      }, 
+      "amount": {
+        "type": "number"
+      }, 
+      "state": {
+        "type": "dict"
+      }, 
+      "a260_a280_ratio": {
+        "type": "number"
+      }, 
+      "concentration": {
+        "type": "number"
+      }, 
+      "project_id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "string"
+      }, 
+      "id": {
+        "type": "string"
+      }
+    }
+  }
+}

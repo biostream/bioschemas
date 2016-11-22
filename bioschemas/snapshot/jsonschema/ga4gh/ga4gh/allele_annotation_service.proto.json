@@ -1,0 +1,77 @@
+{
+  "definitions": {
+    "SearchVariantAnnotationSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "variant_set_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetVariantAnnotationSetRequest": {
+      "type": "object", 
+      "properties": {
+        "variant_annotation_set_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchVariantAnnotationsRequest": {
+      "type": "object", 
+      "properties": {
+        "variant_annotation_set_id": {
+          "type": "string"
+        }, 
+        "reference_name": {
+          "type": "string"
+        }, 
+        "reference_id": {
+          "type": "string"
+        }, 
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "effects": {
+          "type": "object"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchVariantAnnotationsResponse": {
+      "type": "object", 
+      "properties": {
+        "variant_annotations": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchVariantAnnotationSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "variant_annotation_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

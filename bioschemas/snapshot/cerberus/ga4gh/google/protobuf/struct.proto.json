@@ -1,0 +1,47 @@
+{
+  "DOMAIN": {
+    "FieldsEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "dict"
+      }
+    }, 
+    "ListValue": {
+      "values": {
+        "type": "dict"
+      }
+    }, 
+    "Struct": {
+      "fields": {
+        "type": "dict"
+      }
+    }, 
+    "Value": {
+      "null_value": {
+        "type": "dict"
+      }, 
+      "number_value": {
+        "type": "number"
+      }, 
+      "string_value": {
+        "type": "string"
+      }, 
+      "bool_value": {
+        "type": "boolean"
+      }, 
+      "struct_value": {
+        "type": "dict"
+      }, 
+      "list_value": {
+        "type": "dict"
+      }
+    }, 
+    "NullValue": {
+      "NULL_VALUE": {
+        "type": 0
+      }
+    }
+  }
+}

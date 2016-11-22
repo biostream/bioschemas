@@ -1,0 +1,94 @@
+{
+  "DOMAIN": {
+    "PhenotypeInstance": {
+      "id": {
+        "type": "string"
+      }, 
+      "type": {
+        "type": "dict"
+      }, 
+      "qualifier": {
+        "type": "dict"
+      }, 
+      "age_of_onset": {
+        "type": "dict"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "dict"
+      }
+    }, 
+    "Evidence": {
+      "evidence_type": {
+        "type": "dict"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "EnvironmentalContext": {
+      "id": {
+        "type": "string"
+      }, 
+      "environment_type": {
+        "type": "dict"
+      }, 
+      "description": {
+        "type": "string"
+      }
+    }, 
+    "FeaturePhenotypeAssociation": {
+      "id": {
+        "type": "string"
+      }, 
+      "phenotype_association_set_id": {
+        "type": "string"
+      }, 
+      "feature_ids": {
+        "type": "string"
+      }, 
+      "evidence": {
+        "type": "dict"
+      }, 
+      "phenotype": {
+        "type": "dict"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "environmental_contexts": {
+        "type": "dict"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "PhenotypeAssociationSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }
+  }
+}

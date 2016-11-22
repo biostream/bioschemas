@@ -1,0 +1,188 @@
+{
+  "DOMAIN": {
+    "ReadGroupSet": {
+      "id": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "stats": {
+        "type": "dict"
+      }, 
+      "read_groups": {
+        "type": "dict"
+      }
+    }, 
+    "LinearAlignment": {
+      "position": {
+        "type": "dict"
+      }, 
+      "mapping_quality": {
+        "type": "integer"
+      }, 
+      "cigar": {
+        "type": "dict"
+      }
+    }, 
+    "CigarUnit": {
+      "operation": {
+        "type": "dict"
+      }, 
+      "operation_length": {
+        "type": "integer"
+      }, 
+      "reference_sequence": {
+        "type": "string"
+      }
+    }, 
+    "ReadAlignment": {
+      "id": {
+        "type": "string"
+      }, 
+      "read_group_id": {
+        "type": "string"
+      }, 
+      "fragment_name": {
+        "type": "string"
+      }, 
+      "improper_placement": {
+        "type": "boolean"
+      }, 
+      "duplicate_fragment": {
+        "type": "boolean"
+      }, 
+      "number_reads": {
+        "type": "integer"
+      }, 
+      "fragment_length": {
+        "type": "integer"
+      }, 
+      "read_number": {
+        "type": "integer"
+      }, 
+      "failed_vendor_quality_checks": {
+        "type": "boolean"
+      }, 
+      "alignment": {
+        "type": "dict"
+      }, 
+      "secondary_alignment": {
+        "type": "boolean"
+      }, 
+      "supplementary_alignment": {
+        "type": "boolean"
+      }, 
+      "aligned_sequence": {
+        "type": "string"
+      }, 
+      "aligned_quality": {
+        "type": "integer"
+      }, 
+      "next_mate_position": {
+        "type": "dict"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "ReadGroup": {
+      "id": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "sample_name": {
+        "type": "string"
+      }, 
+      "bio_sample_id": {
+        "type": "string"
+      }, 
+      "experiment": {
+        "type": "dict"
+      }, 
+      "predicted_insert_size": {
+        "type": "integer"
+      }, 
+      "created": {
+        "type": "integer"
+      }, 
+      "updated": {
+        "type": "integer"
+      }, 
+      "stats": {
+        "type": "dict"
+      }, 
+      "programs": {
+        "type": "dict"
+      }, 
+      "reference_set_id": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "dict"
+      }
+    }, 
+    "Operation": {
+      "OPERATION_UNSPECIFIED": {
+        "type": 0
+      }, 
+      "ALIGNMENT_MATCH": {
+        "type": 1
+      }, 
+      "INSERT": {
+        "type": 2
+      }, 
+      "DELETE": {
+        "type": 3
+      }, 
+      "SKIP": {
+        "type": 4
+      }, 
+      "CLIP_SOFT": {
+        "type": 5
+      }, 
+      "CLIP_HARD": {
+        "type": 6
+      }, 
+      "PAD": {
+        "type": 7
+      }, 
+      "SEQUENCE_MATCH": {
+        "type": 8
+      }, 
+      "SEQUENCE_MISMATCH": {
+        "type": 9
+      }
+    }, 
+    "ReadStats": {
+      "aligned_read_count": {
+        "type": "integer"
+      }, 
+      "unaligned_read_count": {
+        "type": "integer"
+      }, 
+      "base_count": {
+        "type": "integer"
+      }
+    }
+  }
+}

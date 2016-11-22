@@ -1,0 +1,112 @@
+{
+  "definitions": {
+    "GetRnaQuantificationSetRequest": {
+      "type": "object", 
+      "properties": {
+        "rna_quantification_set_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchRnaQuantificationsResponse": {
+      "type": "object", 
+      "properties": {
+        "rna_quantifications": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchExpressionLevelsRequest": {
+      "type": "object", 
+      "properties": {
+        "rna_quantification_id": {
+          "type": "string"
+        }, 
+        "feature_ids": {
+          "type": "string"
+        }, 
+        "threshold": {
+          "type": "number"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetExpressionLevelRequest": {
+      "type": "object", 
+      "properties": {
+        "expression_level_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchRnaQuantificationsRequest": {
+      "type": "object", 
+      "properties": {
+        "rna_quantification_set_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }, 
+        "bio_sample_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetRnaQuantificationRequest": {
+      "type": "object", 
+      "properties": {
+        "rna_quantification_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchRnaQuantificationSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "rna_quantification_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchExpressionLevelsResponse": {
+      "type": "object", 
+      "properties": {
+        "expression_levels": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchRnaQuantificationSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

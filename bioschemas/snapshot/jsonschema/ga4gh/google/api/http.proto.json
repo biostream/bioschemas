@@ -1,0 +1,55 @@
+{
+  "definitions": {
+    "CustomHttpPattern": {
+      "type": "object", 
+      "properties": {
+        "kind": {
+          "type": "string"
+        }, 
+        "path": {
+          "type": "string"
+        }
+      }
+    }, 
+    "HttpRule": {
+      "type": "object", 
+      "properties": {
+        "selector": {
+          "type": "string"
+        }, 
+        "get": {
+          "type": "string"
+        }, 
+        "put": {
+          "type": "string"
+        }, 
+        "post": {
+          "type": "string"
+        }, 
+        "delete": {
+          "type": "string"
+        }, 
+        "patch": {
+          "type": "string"
+        }, 
+        "body": {
+          "type": "string"
+        }, 
+        "custom": {
+          "type": "object"
+        }, 
+        "additional_bindings": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Http": {
+      "type": "object", 
+      "properties": {
+        "rules": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

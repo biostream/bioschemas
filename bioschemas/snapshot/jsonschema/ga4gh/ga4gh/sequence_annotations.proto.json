@@ -1,0 +1,164 @@
+{
+  "definitions": {
+    "ValsEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "AttributeValue": {
+      "type": "object", 
+      "properties": {
+        "string_value": {
+          "type": "string"
+        }, 
+        "external_identifier": {
+          "type": "object"
+        }, 
+        "ontology_term": {
+          "type": "object"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "AttributeValueList": {
+      "type": "object", 
+      "properties": {
+        "values": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Feature": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "gene_symbol": {
+          "type": "string"
+        }, 
+        "parent_id": {
+          "type": "string"
+        }, 
+        "child_ids": {
+          "type": "string"
+        }, 
+        "feature_set_id": {
+          "type": "string"
+        }, 
+        "reference_name": {
+          "type": "string"
+        }, 
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "strand": {
+          "type": "object"
+        }, 
+        "feature_type": {
+          "type": "object"
+        }, 
+        "attributes": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.Attributes.ValsEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.Attributes.AttributeValue": {
+      "type": "object", 
+      "properties": {
+        "string_value": {
+          "type": "string"
+        }, 
+        "external_identifier": {
+          "type": "object"
+        }, 
+        "ontology_term": {
+          "type": "object"
+        }
+      }
+    }, 
+    "FeatureSet": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "reference_set_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "source_uri": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Attributes": {
+      "type": "object", 
+      "properties": {
+        "vals": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.FeatureSet.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.Attributes.AttributeValueList": {
+      "type": "object", 
+      "properties": {
+        "values": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "DOMAIN": {
+    "SearchReadGroupSetsResponse": {
+      "read_group_sets": {
+        "type": "dict"
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchReadsRequest": {
+      "read_group_ids": {
+        "type": "string"
+      }, 
+      "reference_id": {
+        "type": "string"
+      }, 
+      "start": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchReadGroupSetsRequest": {
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "bio_sample_id": {
+        "type": "string"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "GetReadGroupSetRequest": {
+      "read_group_set_id": {
+        "type": "string"
+      }
+    }, 
+    "SearchReadsResponse": {
+      "alignments": {
+        "type": "dict"
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }
+  }
+}

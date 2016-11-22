@@ -1,0 +1,101 @@
+{
+  "definitions": {
+    "ga4gh.Individual.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "Individual": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "created": {
+          "type": "string"
+        }, 
+        "updated": {
+          "type": "string"
+        }, 
+        "species": {
+          "type": "object"
+        }, 
+        "sex": {
+          "type": "object"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "ga4gh.BioSample.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "BioSample": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "disease": {
+          "type": "object"
+        }, 
+        "created": {
+          "type": "string"
+        }, 
+        "updated": {
+          "type": "string"
+        }, 
+        "individual_id": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

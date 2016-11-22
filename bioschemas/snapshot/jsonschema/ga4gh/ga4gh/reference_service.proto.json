@@ -1,0 +1,113 @@
+{
+  "definitions": {
+    "GetReferenceRequest": {
+      "type": "object", 
+      "properties": {
+        "reference_id": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchReferenceSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "reference_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "ListReferenceBasesRequest": {
+      "type": "object", 
+      "properties": {
+        "reference_id": {
+          "type": "string"
+        }, 
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchReferencesRequest": {
+      "type": "object", 
+      "properties": {
+        "reference_set_id": {
+          "type": "string"
+        }, 
+        "md5checksum": {
+          "type": "string"
+        }, 
+        "accession": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "ListReferenceBasesResponse": {
+      "type": "object", 
+      "properties": {
+        "offset": {
+          "type": "integer"
+        }, 
+        "sequence": {
+          "type": "string"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchReferencesResponse": {
+      "type": "object", 
+      "properties": {
+        "references": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchReferenceSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "md5checksum": {
+          "type": "string"
+        }, 
+        "accession": {
+          "type": "string"
+        }, 
+        "assembly_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "GetReferenceSetRequest": {
+      "type": "object", 
+      "properties": {
+        "reference_set_id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

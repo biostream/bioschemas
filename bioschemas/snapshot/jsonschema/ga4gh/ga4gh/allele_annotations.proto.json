@@ -1,0 +1,157 @@
+{
+  "definitions": {
+    "ga4gh.TranscriptEffect.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "HGVSAnnotation": {
+      "type": "object", 
+      "properties": {
+        "genomic": {
+          "type": "string"
+        }, 
+        "transcript": {
+          "type": "string"
+        }, 
+        "protein": {
+          "type": "string"
+        }
+      }
+    }, 
+    "AlleleLocation": {
+      "type": "object", 
+      "properties": {
+        "start": {
+          "type": "integer"
+        }, 
+        "end": {
+          "type": "integer"
+        }, 
+        "reference_sequence": {
+          "type": "string"
+        }, 
+        "alternate_sequence": {
+          "type": "string"
+        }
+      }
+    }, 
+    "TranscriptEffect": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "feature_id": {
+          "type": "string"
+        }, 
+        "alternate_bases": {
+          "type": "string"
+        }, 
+        "effects": {
+          "type": "object"
+        }, 
+        "hgvs_annotation": {
+          "type": "object"
+        }, 
+        "cdna_location": {
+          "type": "object"
+        }, 
+        "cds_location": {
+          "type": "object"
+        }, 
+        "protein_location": {
+          "type": "object"
+        }, 
+        "analysis_results": {
+          "type": "object"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "VariantAnnotationSet": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "variant_set_id": {
+          "type": "string"
+        }, 
+        "name": {
+          "type": "string"
+        }, 
+        "analysis": {
+          "type": "object"
+        }
+      }
+    }, 
+    "InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }, 
+    "VariantAnnotation": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string"
+        }, 
+        "variant_id": {
+          "type": "string"
+        }, 
+        "variant_annotation_set_id": {
+          "type": "string"
+        }, 
+        "created": {
+          "type": "string"
+        }, 
+        "transcript_effects": {
+          "type": "object"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
+    }, 
+    "AnalysisResult": {
+      "type": "object", 
+      "properties": {
+        "analysis_id": {
+          "type": "string"
+        }, 
+        "result": {
+          "type": "string"
+        }, 
+        "score": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "ga4gh.VariantAnnotation.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

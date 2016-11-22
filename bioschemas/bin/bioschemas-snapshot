@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+# export schemas
+
+import bioschemas
+import os
+import argparse
+import shutil
+import sys
+
+# check args
+parser = argparse.ArgumentParser(
+        description='Extract bioschemas schema directory [ga4gh,bmeg,gdc]')
+parser.add_argument('-o', '--output',
+                    help='Extract to this directory name. Must not already exist; it will be created as well as missing parent directories. ', required=False)  # NOQA
+parser.add_argument('-v', '--version',
+                    help='Print git hashes', action='store_true')
+args = parser.parse_args()
+
+# print version
+if args.version:
+    print bioschemas.git_hashes()
+
+# copy dir
+if args.output:
+    shutil.copytree(bioschemas.schema_path(), args.output)
+    print "copied to {}".format(args.output)

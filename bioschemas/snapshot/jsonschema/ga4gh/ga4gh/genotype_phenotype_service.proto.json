@@ -1,0 +1,133 @@
+{
+  "definitions": {
+    "SearchPhenotypeAssociationSetsRequest": {
+      "type": "object", 
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchPhenotypeAssociationSetsResponse": {
+      "type": "object", 
+      "properties": {
+        "phenotype_association_sets": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchPhenotypesRequest": {
+      "type": "object", 
+      "properties": {
+        "phenotype_association_set_id": {
+          "type": "string"
+        }, 
+        "id": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "type": {
+          "type": "object"
+        }, 
+        "qualifiers": {
+          "type": "object"
+        }, 
+        "age_of_onset": {
+          "type": "object"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchPhenotypesResponse": {
+      "type": "object", 
+      "properties": {
+        "phenotypes": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "ExternalIdentifierQuery": {
+      "type": "object", 
+      "properties": {
+        "ids": {
+          "type": "object"
+        }
+      }
+    }, 
+    "SearchGenotypePhenotypeRequest": {
+      "type": "object", 
+      "properties": {
+        "phenotype_association_set_id": {
+          "type": "string"
+        }, 
+        "feature_ids": {
+          "type": "string"
+        }, 
+        "phenotype_ids": {
+          "type": "string"
+        }, 
+        "evidence": {
+          "type": "object"
+        }, 
+        "page_size": {
+          "type": "integer"
+        }, 
+        "page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "SearchGenotypePhenotypeResponse": {
+      "type": "object", 
+      "properties": {
+        "associations": {
+          "type": "object"
+        }, 
+        "next_page_token": {
+          "type": "string"
+        }
+      }
+    }, 
+    "OntologyTermQuery": {
+      "type": "object", 
+      "properties": {
+        "terms": {
+          "type": "object"
+        }
+      }
+    }, 
+    "EvidenceQuery": {
+      "type": "object", 
+      "properties": {
+        "evidenceType": {
+          "type": "object"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "external_identifiers": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

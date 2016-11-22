@@ -1,0 +1,89 @@
+{
+  "DOMAIN": {
+    "GetReferenceRequest": {
+      "reference_id": {
+        "type": "string"
+      }
+    }, 
+    "SearchReferenceSetsResponse": {
+      "reference_sets": {
+        "type": "dict"
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "ListReferenceBasesRequest": {
+      "reference_id": {
+        "type": "string"
+      }, 
+      "start": {
+        "type": "integer"
+      }, 
+      "end": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchReferencesRequest": {
+      "reference_set_id": {
+        "type": "string"
+      }, 
+      "md5checksum": {
+        "type": "string"
+      }, 
+      "accession": {
+        "type": "string"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "ListReferenceBasesResponse": {
+      "offset": {
+        "type": "integer"
+      }, 
+      "sequence": {
+        "type": "string"
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchReferencesResponse": {
+      "references": {
+        "type": "dict"
+      }, 
+      "next_page_token": {
+        "type": "string"
+      }
+    }, 
+    "SearchReferenceSetsRequest": {
+      "md5checksum": {
+        "type": "string"
+      }, 
+      "accession": {
+        "type": "string"
+      }, 
+      "assembly_id": {
+        "type": "string"
+      }, 
+      "page_size": {
+        "type": "integer"
+      }, 
+      "page_token": {
+        "type": "string"
+      }
+    }, 
+    "GetReferenceSetRequest": {
+      "reference_set_id": {
+        "type": "string"
+      }
+    }
+  }
+}

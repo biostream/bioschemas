@@ -1,0 +1,70 @@
+{
+  "DOMAIN": {
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "dict"
+      }
+    }, 
+    "Individual": {
+      "id": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "created": {
+        "type": "string"
+      }, 
+      "updated": {
+        "type": "string"
+      }, 
+      "species": {
+        "type": "dict"
+      }, 
+      "sex": {
+        "type": "dict"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }, 
+    "BioSample": {
+      "id": {
+        "type": "string"
+      }, 
+      "dataset_id": {
+        "type": "string"
+      }, 
+      "name": {
+        "type": "string"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "disease": {
+        "type": "dict"
+      }, 
+      "created": {
+        "type": "string"
+      }, 
+      "updated": {
+        "type": "string"
+      }, 
+      "individual_id": {
+        "type": "string"
+      }, 
+      "info": {
+        "type": "dict"
+      }
+    }
+  }
+}
