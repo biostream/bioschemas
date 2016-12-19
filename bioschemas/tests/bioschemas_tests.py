@@ -2,9 +2,10 @@
 
 from unittest import TestCase
 import bioschemas
+import json
 import jsonschema
 from jsonschema.exceptions import SchemaError
-from os.path import isdir, abspath, join, exists
+from os.path import dirname, isdir, abspath, join, exists, realpath
 
 
 def test_should_return_path():
@@ -36,9 +37,18 @@ def test_should_have_gdc_submission_templates():
 def test_should_return_submission_template_by_type():
     assert bioschemas.gdc_submission_template('file')
 
+
 def test_file_centric_is_valid():
     schema = bioschemas.json_schema('file-centric')
     try:
         jsonschema.Draft4Validator.check_schema(schema)
     except SchemaError as e:
         assert False, 'schema error'
+
+
+def test_file_centric_validation():
+    test_path = dirname(realpath(__file__))
+    schema = bioschemas.json_schema('file-centric')
+    with open(join(test_path, 'example-file-centric.json'), 'rb') as rd:
+        jsonschema.validate(json.load(rd), schema)
+
