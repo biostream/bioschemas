@@ -27,7 +27,12 @@ def test_should_cerberus_schema():
 
 
 def test_should_return_git_hashes():
-    assert bioschemas.git_hashes()
+    h = bioschemas.git_hashes()
+    assert h
+    assert 'bmeg' in h
+    assert 'ga4gh' in h
+    assert 'gdc' in h
+    assert 'icgc-dcc' in h
 
 
 def test_should_have_gdc_submission_templates():
