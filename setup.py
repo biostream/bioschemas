@@ -12,6 +12,7 @@ setup(name='Bioschemas',
       packages=find_packages(),
       install_requires=[
           'jsonschema',
+          'protobuf'
       ],
       test_suite='nose.collector',
       tests_require=['nose'],
