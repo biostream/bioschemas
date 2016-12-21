@@ -26,5 +26,6 @@ d = datetime.datetime.utcnow()
 print json.dumps({'bioschemas': bioschemas,
                   'bmeg': bmeg,
                   'gdc': gdc,
+                  'ohsu': bioschemas,
                   'created_at': d.isoformat("T") + "Z"
                   })

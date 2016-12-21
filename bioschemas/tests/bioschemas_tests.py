@@ -13,6 +13,7 @@ def test_paths_should_have_proto():
     assert isdir(abspath(join(bioschemas.schema_path(), "proto")))
     assert isdir(abspath(join(bioschemas.schema_path(), "proto/bmeg")))
     assert isdir(abspath(join(bioschemas.schema_path(), "proto/ga4gh")))
+    assert isdir(abspath(join(bioschemas.schema_path(), "proto/ohsu")))
 
 
 def test_should_jsonschema():
@@ -33,3 +34,4 @@ def test_should_have_gdc_submission_templates():
 
 def test_should_return_submission_template_by_type():
     assert bioschemas.gdc_submission_template('file')
+

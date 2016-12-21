@@ -38,3 +38,11 @@ d = {"definitions": gdcdictionary.schema}
 print dumps(d, indent=2)
 ' > $PROTO_TO_JSONSCHEMA/gdc/schema.json
 echo "jsonschema code generated into $PROTO_TO_JSONSCHEMA/gdc"
+
+PROTO_PATH=../schemas/ohsu
+mkdir -p $PROTO_TO_JSONSCHEMA/ohsu
+protoc --plugin=protoc-gen-custom=custom-plugin.py \
+       --proto_path=$PROTO_PATH \
+       --custom_out=$PROTO_TO_JSONSCHEMA/ga4gh \
+       $PROTO_PATH/ga4gh/*
+echo "jsonschema code generated into $PROTO_TO_JSONSCHEMA/ohsu"

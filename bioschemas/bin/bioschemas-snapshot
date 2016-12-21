@@ -9,7 +9,7 @@ import sys
 
 # check args
 parser = argparse.ArgumentParser(
-        description='Extract bioschemas schema directory [ga4gh,bmeg,gdc]')
+        description='Extract bioschemas schema directory [ga4gh,bmeg,gdc,ohsu]')
 parser.add_argument('-o', '--output',
                     help='Extract to this directory name. Must not already exist; it will be created as well as missing parent directories. ', required=False)  # NOQA
 parser.add_argument('-v', '--version',
