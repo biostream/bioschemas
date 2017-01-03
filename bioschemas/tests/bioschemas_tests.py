@@ -11,7 +11,6 @@ def test_should_return_path():
 
 def test_paths_should_have_proto():
     assert isdir(abspath(join(bioschemas.schema_path(), "proto")))
-    assert isdir(abspath(join(bioschemas.schema_path(), "proto/bmeg")))
     assert isdir(abspath(join(bioschemas.schema_path(), "proto/ga4gh")))
     assert isdir(abspath(join(bioschemas.schema_path(), "proto/ohsu")))
 

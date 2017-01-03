@@ -1,8 +1,40 @@
 {
   "definitions": {
-    "Project": {
+    "InfoEntry": {
       "type": "object", 
-      "properties": {}
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "string"
+        }
+      }
+    }, 
+    "ohsu.schema.Resource.InfoEntry": {
+      "type": "object", 
+      "properties": {
+        "key": {
+          "type": "string"
+        }, 
+        "value": {
+          "type": "string"
+        }
+      }
+    }, 
+    "Dataset": {
+      "type": "object", 
+      "properties": {
+        "name": {
+          "type": "string"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "info": {
+          "type": "object"
+        }
+      }
     }, 
     "Resource": {
       "type": "object", 
@@ -50,50 +82,6 @@
           "type": "string"
         }
       }
-    }, 
-    "InfoEntry": {
-      "type": "object", 
-      "properties": {
-        "key": {
-          "type": "string"
-        }, 
-        "value": {
-          "type": "string"
-        }
-      }
-    }, 
-    "Dataset": {
-      "type": "object", 
-      "properties": {
-        "name": {
-          "type": "string"
-        }, 
-        "description": {
-          "type": "string"
-        }, 
-        "info": {
-          "type": "object"
-        }
-      }
-    }, 
-    "Sample": {
-      "type": "object", 
-      "properties": {}
-    }, 
-    "ohsu.schema.Resource.InfoEntry": {
-      "type": "object", 
-      "properties": {
-        "key": {
-          "type": "string"
-        }, 
-        "value": {
-          "type": "string"
-        }
-      }
-    }, 
-    "Individual": {
-      "type": "object", 
-      "properties": {}
     }, 
     "ohsu.schema.Dataset.InfoEntry": {
       "type": "object", 
