@@ -7,8 +7,12 @@
 
 PROTO_PATH=../schemas/bmeg/ohsu
 
+# clean generated schemas
 export PROTO_TO_JSONSCHEMA=../bioschemas/snapshot/jsonschema
-rm -r $PROTO_TO_JSONSCHEMA
+for schema_dir in 'ga4gh' 'gdc'; do
+    rm -r $PROTO_TO_JSONSCHEMA/$schema_dir
+done
+
 mkdir $PROTO_TO_JSONSCHEMA
 
 
