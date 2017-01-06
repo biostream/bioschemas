@@ -31,6 +31,7 @@ print json.dumps({'bioschemas': bioschemas,
                   'ga4gh': ga4gh,
                   'bmeg': bmeg,
                   'gdc': gdc,
+                  'ohsu': bioschemas,
                   'icgc-dcc': bioschemas,
                   'created_at': d.isoformat("T") + "Z"
                   })

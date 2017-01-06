@@ -14,8 +14,8 @@ def test_should_return_path():
 
 def test_paths_should_have_proto():
     assert isdir(abspath(join(bioschemas.schema_path(), "proto")))
-    assert isdir(abspath(join(bioschemas.schema_path(), "proto/bmeg")))
     assert isdir(abspath(join(bioschemas.schema_path(), "proto/ga4gh")))
+    assert isdir(abspath(join(bioschemas.schema_path(), "proto/ohsu")))
 
 
 def test_should_jsonschema():
@@ -56,4 +56,3 @@ def test_file_centric_validation():
     schema = bioschemas.json_schema('file-centric')
     with open(join(test_path, 'example-file-centric.json'), 'rb') as rd:
         jsonschema.validate(json.load(rd), schema)
-

@@ -2,14 +2,6 @@ syntax = "proto3";
 
 package ohsu.schema;
 
-message Individual {
-    
-}
-
-message Sample {
-
-}
-
 message Resource {
     string type = 1;
     string name = 2;
@@ -34,6 +26,3 @@ message Dataset {
     map<string, string> info = 3;
 }
 
-message Project {
-    
-}

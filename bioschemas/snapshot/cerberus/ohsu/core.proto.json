@@ -1,6 +1,13 @@
 {
   "DOMAIN": {
-    "Project": {}, 
+    "InfoEntry": {
+      "key": {
+        "type": "string"
+      }, 
+      "value": {
+        "type": "string"
+      }
+    }, 
     "Resource": {
       "type": {
         "type": "string"
@@ -45,14 +52,6 @@
         "type": "string"
       }
     }, 
-    "InfoEntry": {
-      "key": {
-        "type": "string"
-      }, 
-      "value": {
-        "type": "string"
-      }
-    }, 
     "Dataset": {
       "name": {
         "type": "string"
@@ -63,8 +62,6 @@
       "info": {
         "type": "dict"
       }
-    }, 
-    "Sample": {}, 
-    "Individual": {}
+    }
   }
 }

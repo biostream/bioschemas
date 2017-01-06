@@ -9,18 +9,11 @@ PROTO_PATH=../schemas/bmeg/ohsu
 
 # clean generated schemas
 export PROTO_TO_JSONSCHEMA=../bioschemas/snapshot/jsonschema
-for schema_dir in 'bmeg' 'ga4gh' 'gdc'; do
+for schema_dir in 'ga4gh' 'gdc'; do
     rm -r $PROTO_TO_JSONSCHEMA/$schema_dir
 done
 
 mkdir $PROTO_TO_JSONSCHEMA
-PROTO_PATH=../schemas/bmeg/ohsu/schema
-mkdir -p $PROTO_TO_JSONSCHEMA/bmeg
-protoc --plugin=protoc-gen-custom=custom-plugin.py \
-       --proto_path=$PROTO_PATH \
-       --custom_out=$PROTO_TO_JSONSCHEMA/bmeg \
-       $PROTO_PATH/*.proto
-echo "jsonschema code generated into $PROTO_TO_JSONSCHEMA/bmeg"
 
 
 PROTO_PATH=../schemas/ga4gh/src/main/proto
@@ -42,3 +35,11 @@ d = {"definitions": gdcdictionary.schema}
 print dumps(d, indent=2)
 ' > $PROTO_TO_JSONSCHEMA/gdc/schema.json
 echo "jsonschema code generated into $PROTO_TO_JSONSCHEMA/gdc"
+
+PROTO_PATH=../schemas/ohsu
+mkdir -p $PROTO_TO_JSONSCHEMA/ohsu
+protoc --plugin=protoc-gen-custom=custom-plugin.py \
+       --proto_path=$PROTO_PATH \
+       --custom_out=$PROTO_TO_JSONSCHEMA/ohsu \
+       $PROTO_PATH/*.proto
+echo "jsonschema code generated into $PROTO_TO_JSONSCHEMA/ohsu"

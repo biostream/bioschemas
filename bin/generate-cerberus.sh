@@ -5,18 +5,16 @@
 # the PROTO_TO_CERBERUS var controlls both what type of output to generate
 # and where to put it
 
-PROTO_PATH=../schemas/bmeg/ohsu
-
 export PROTO_TO_CERBERUS=../bioschemas/snapshot/cerberus
 rm -r $PROTO_TO_CERBERUS
 mkdir $PROTO_TO_CERBERUS
-PROTO_PATH=../schemas/bmeg/ohsu/schema
-mkdir -p $PROTO_TO_CERBERUS/bmeg
+PROTO_PATH=../schemas/ohsu
+mkdir -p $PROTO_TO_CERBERUS/ohsu
 protoc --plugin=protoc-gen-custom=custom-plugin.py \
        --proto_path=$PROTO_PATH \
-       --custom_out=$PROTO_TO_CERBERUS/bmeg \
+       --custom_out=$PROTO_TO_CERBERUS/ohsu \
        $PROTO_PATH/*.proto
-echo "cerberus code snapshot into $PROTO_TO_CERBERUS/bmeg"
+echo "cerberus code snapshot into $PROTO_TO_CERBERUS/ohsu"
 
 
 PROTO_PATH=../schemas/ga4gh/src/main/proto
