@@ -1,0 +1,308 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "file-centric": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "object_id": {
+          "type": "string"
+        },
+        "study": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "access": {
+          "type": "string"
+        },
+        "data_bundle": {
+          "type": "object",
+          "properties": {
+            "data_bundle_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "data_bundle_id"
+          ]
+        },
+        "analysis_method": {
+          "type": "object",
+          "properties": {
+            "analysis_type": {
+              "type": "string"
+            },
+            "software": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "analysis_type",
+            "software"
+          ]
+        },
+        "data_categorization": {
+          "type": "object",
+          "properties": {
+            "data_type": {
+              "type": "string"
+            },
+            "experimental_strategy": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "data_type",
+            "experimental_strategy"
+          ]
+        },
+        "reference_genome": {
+          "type": "object",
+          "properties": {
+            "genome_build": {
+              "type": "string"
+            },
+            "reference_name": {
+              "type": "string"
+            },
+            "download_url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "genome_build",
+            "reference_name",
+            "download_url"
+          ]
+        },
+        "file_copies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "file_name": {
+                "type": "string"
+              },
+              "file_format": {
+                "type": "string"
+              },
+              "file_size": {
+                "type": "integer"
+              },
+              "file_md5sum": {
+                "type": "string"
+              },
+              "last_modified": {
+                "type": "integer"
+              },
+              "index_file": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "object_id": {
+                    "type": "string"
+                  },
+                  "file_name": {
+                    "type": "string"
+                  },
+                  "file_format": {
+                    "type": "string"
+                  },
+                  "file_size": {
+                    "type": "integer"
+                  },
+                  "file_md5sum": {
+                    "type": "string"
+                  },
+                  "repo_file_id": {
+                    "type": "null"
+                  }
+                },
+                "required": [
+                  "id",
+                  "object_id",
+                  "file_name",
+                  "file_format",
+                  "file_size",
+                  "file_md5sum",
+                  "repo_file_id"
+                ]
+              },
+              "repo_data_bundle_id": {
+                "type": "string"
+              },
+              "repo_file_id": {
+                "type": "null"
+              },
+              "repo_data_set_ids": {
+                "type": "array",
+                "items": {}
+              },
+              "repo_type": {
+                "type": "string"
+              },
+              "repo_org": {
+                "type": "string"
+              },
+              "repo_name": {
+                "type": "string"
+              },
+              "repo_code": {
+                "type": "string"
+              },
+              "repo_country": {
+                "type": "string"
+              },
+              "repo_base_url": {
+                "type": "string"
+              },
+              "repo_data_path": {
+                "type": "string"
+              },
+              "repo_metadata_path": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "file_name",
+              "file_format",
+              "file_size",
+              "file_md5sum",
+              "last_modified",
+              "index_file",
+              "repo_data_bundle_id",
+              "repo_file_id",
+              "repo_data_set_ids",
+              "repo_type",
+              "repo_org",
+              "repo_name",
+              "repo_code",
+              "repo_country",
+              "repo_base_url",
+              "repo_data_path",
+              "repo_metadata_path"
+            ]
+          }
+        },
+        "donors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "project_code": {
+                "type": "string"
+              },
+              "program": {
+                "type": "null"
+              },
+              "study": {
+                "type": "string"
+              },
+              "primary_site": {
+                "type": "string"
+              },
+              "donor_id": {
+                "type": "string"
+              },
+              "specimen_id": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "specimen_type": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "sample_id": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "matched_control_sample_id": {
+                "type": "null"
+              },
+              "submitted_donor_id": {
+                "type": "string"
+              },
+              "submitted_specimen_id": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "submitted_sample_id": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "other_identifiers": {
+                "type": "object",
+                "properties": {
+                  "tcga_participant_barcode": {
+                    "type": "null"
+                  },
+                  "tcga_sample_barcode": {
+                    "type": "array",
+                    "items": {
+                      "type": "null"
+                    }
+                  },
+                  "tcga_aliquot_barcode": {
+                    "type": "array",
+                    "items": {
+                      "type": "null"
+                    }
+                  }
+                },
+                "required": [
+                  "tcga_participant_barcode",
+                  "tcga_sample_barcode",
+                  "tcga_aliquot_barcode"
+                ]
+              }
+            },
+            "required": [
+              "project_code",
+              "program",
+              "study",
+              "primary_site",
+              "donor_id",
+              "specimen_id",
+              "specimen_type",
+              "sample_id",
+              "matched_control_sample_id",
+              "submitted_donor_id",
+              "submitted_specimen_id",
+              "submitted_sample_id",
+              "other_identifiers"
+            ]
+          }
+        }
+      },
+      "required": [
+        "id",
+        "object_id",
+        "study",
+        "access",
+        "data_bundle",
+        "analysis_method",
+        "data_categorization",
+        "reference_genome",
+        "file_copies",
+        "donors"
+      ]
+    }
+  }
+}
+

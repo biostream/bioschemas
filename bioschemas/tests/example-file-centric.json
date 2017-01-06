@@ -1,0 +1,116 @@
+{
+    "id": "FIfff5ab802ba694741b87757d6fc472f4",
+    "object_id": "18b81823-3ab9-500f-9bcb-e832f023f759",
+    "study": [
+      "PCAWG"
+    ],
+    "access": "controlled",
+    "data_bundle": {
+      "data_bundle_id": "faabea24-1a43-4e9a-917a-bd5de1cf95f3"
+    },
+    "analysis_method": {
+      "analysis_type": "Variant calling",
+      "software": "Broad variant call pipeline"
+    },
+    "data_categorization": {
+      "data_type": "StSM",
+      "experimental_strategy": "WGS"
+    },
+    "reference_genome": {
+      "genome_build": "GRCh37",
+      "reference_name": "hs37d5",
+      "download_url": "ftp://ftp.sanger.ac.uk/pub/project/PanCancer/genome.fa.gz"
+    },
+    "file_copies": [
+      {
+        "file_name": "f4baf913-c4ac-46f3-83b6-306b9182207d.broad-snowman.20151017.somatic.sv.vcf.gz",
+        "file_format": "VCF",
+        "file_size": 22128,
+        "file_md5sum": "28d6d67ffca1a834b74b15f502cd4ccd",
+        "last_modified": 1456786082,
+        "index_file": {
+          "id": "FI299ccc1017006ce40f873795ccfaf00c",
+          "object_id": "6c8b0257-5da2-59fd-8437-5e8fae852d41",
+          "file_name": "f4baf913-c4ac-46f3-83b6-306b9182207d.broad-snowman.20151017.somatic.sv.vcf.gz.idx",
+          "file_format": "IDX",
+          "file_size": 5169,
+          "file_md5sum": "dff15c75d8d2a7057ddf982ea8de1be1",
+          "repo_file_id": null
+        },
+        "repo_data_bundle_id": "faabea24-1a43-4e9a-917a-bd5de1cf95f3",
+        "repo_file_id": null,
+        "repo_data_set_ids": [],
+        "repo_type": "GNOS",
+        "repo_org": "PCAWG",
+        "repo_name": "PCAWG - London",
+        "repo_code": "pcawg-london",
+        "repo_country": "UK",
+        "repo_base_url": "https://gtrepo-ebi.annailabs.com/",
+        "repo_data_path": "/cghub/data/analysis/download/",
+        "repo_metadata_path": "/cghub/metadata/analysisFull/"
+      },
+      {
+        "file_name": "f4baf913-c4ac-46f3-83b6-306b9182207d.broad-snowman.20151017.somatic.sv.vcf.gz",
+        "file_format": "VCF",
+        "file_size": 22128,
+        "file_md5sum": "28d6d67ffca1a834b74b15f502cd4ccd",
+        "last_modified": 1456786082,
+        "index_file": {
+          "id": "FI299ccc1017006ce40f873795ccfaf00c",
+          "object_id": "6c8b0257-5da2-59fd-8437-5e8fae852d41",
+          "file_name": "f4baf913-c4ac-46f3-83b6-306b9182207d.broad-snowman.20151017.somatic.sv.vcf.gz.idx",
+          "file_format": "IDX",
+          "file_size": 5169,
+          "file_md5sum": "dff15c75d8d2a7057ddf982ea8de1be1",
+          "repo_file_id": null
+        },
+        "repo_data_bundle_id": "faabea24-1a43-4e9a-917a-bd5de1cf95f3",
+        "repo_file_id": null,
+        "repo_data_set_ids": [],
+        "repo_type": "GNOS",
+        "repo_org": "PCAWG",
+        "repo_name": "PCAWG - Chicago (ICGC)",
+        "repo_code": "pcawg-chicago-icgc",
+        "repo_country": "US",
+        "repo_base_url": "https://gtrepo-osdc-icgc.annailabs.com/",
+        "repo_data_path": "/cghub/data/analysis/download/",
+        "repo_metadata_path": "/cghub/metadata/analysisFull/"
+      }
+    ],
+    "donors": [
+      {
+        "project_code": "RECA-EU",
+        "program": null,
+        "study": "PCAWG",
+        "primary_site": "Kidney",
+        "donor_id": "DO849603cb1672329c32169abb80d720e4",
+        "specimen_id": [
+          "SP2c54d7ea811714a3538ca965e6f9d7f4"
+        ],
+        "specimen_type": [
+          "Primary tumour - solid tissue"
+        ],
+        "sample_id": [
+          "SA2c54d7ea811714a3538ca965e6f9d7f4"
+        ],
+        "matched_control_sample_id": null,
+        "submitted_donor_id": "C0060",
+        "submitted_specimen_id": [
+          "C0060T"
+        ],
+        "submitted_sample_id": [
+          "C0060T"
+        ],
+        "other_identifiers": {
+          "tcga_participant_barcode": null,
+          "tcga_sample_barcode": [
+            null
+          ],
+          "tcga_aliquot_barcode": [
+            null
+          ]
+        }
+      }
+    ]
+  }
+
