@@ -1,0 +1,88 @@
+
+syntax = "proto3";
+
+package icgc;
+
+message DataBundle {
+  string data_bundle_id = 1;
+}
+
+message AnalysisMethod {
+  string analysis_type = 1;
+  string software = 2;
+}
+
+message DataCategorization {
+  string data_type = 1;
+  string experimental_strategy = 2;
+}
+
+message ReferenceGenome {
+  string genome_build = 1;
+  string reference_name = 2;
+  string download_url = 3; 
+}
+
+message IndexFile {
+  string id = 1;
+  string object_id = 2;
+  string file_name = 3;
+  string file_format = 4;
+  int64  file_size = 5;
+  string file_md5sum = 6;
+  string repo_file_id = 7;
+}
+
+message CopiedFile {
+  string file_name = 1;
+  int64  file_size = 2;
+  string file_md5sum = 3;
+  int64  last_modified = 4;
+  IndexFile index_file = 5;
+}
+
+message OtherIdentifiers {
+  string tcga_participant_barcode = 1;
+  repeated string tcga_sample_barcode = 2;
+  repeated string tcga_aliquot_barcode = 3;
+}
+
+message Donor {
+  string project_code = 1;
+  string program = 2;
+  string study = 3;
+  string primary_site = 4;
+  string donor_id = 5;
+  repeated string specimen_id = 6;
+  repeated string specimen_type = 7;
+  repeated string sample_id = 8;
+  string matched_control_sample_id = 9;
+  string submitted_donor_id = 10;
+  string submitted_specimen_id = 11;
+  string submitted_sample_id = 12;
+  OtherIdentifiers other_identifiers = 13;
+}
+
+message FileCentric {
+  string id = 1;
+  string object_id = 2;
+  repeated string study = 3;
+  string access = 4;
+  DataBundle data_bundle = 5;
+  AnalysisMethod analysis_method = 6;
+  DataCategorization data_categorization = 7;
+  ReferenceGenome reference_genome = 8;
+  repeated CopiedFile files_copied = 9;
+  string repo_data_bundle_id = 10;
+  string repo_file_id = 11;
+  repeated string repo_data_set_ids = 12;
+  string repo_type = 13;
+  string repo_org = 14;
+  string repo_name = 15;
+  string repo_code = 16;
+  string repo_country = 17;
+  string repo_base_url = 18;
+  string repo_data_path = 19;
+  string repo_metadata_path = 20;
+  repeated Donor donors = 21;
+}
