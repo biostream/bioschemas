@@ -17,7 +17,7 @@ message Evidence {
   ga4gh.Feature feature = 3;
   ga4gh.FeaturePhenotypeAssociation association = 4;
   // opaque source documents
-  google.protobuf.Struct cgi_biomarkers = 5;
+  google.protobuf.Struct cgi = 5;
   google.protobuf.Struct jax = 6;
   google.protobuf.Struct civic = 7;
   google.protobuf.Struct oncokb = 8;
