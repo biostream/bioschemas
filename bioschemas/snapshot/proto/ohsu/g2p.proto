@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "google/protobuf/struct.proto";
+import "ga4gh/sequence_annotations.proto";
+import "ga4gh/genotype_phenotype.proto";
+
+
+package ohsu.g2p;
+
+// An association between a phenotype('disease'), environment('drug')
+// and genome(feature), harvested from a trusted knowledge base(source).
+// For organization, the entrez name('gene') is included separately.
+// For traceability, the document from the original source is included
+message Evidence {
+  string source = 1;
+  string gene = 2;
+  ga4gh.Feature feature = 3;
+  ga4gh.FeaturePhenotypeAssociation association = 4;
+  // opaque source documents
+  google.protobuf.Struct cgi = 5;
+  google.protobuf.Struct jax = 6;
+  google.protobuf.Struct civic = 7;
+  google.protobuf.Struct oncokb = 8;
+  google.protobuf.Struct molecularmatch = 9;
+}
