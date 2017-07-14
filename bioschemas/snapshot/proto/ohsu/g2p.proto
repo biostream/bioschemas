@@ -13,8 +13,8 @@ package ohsu.g2p;
 // For traceability, the document from the original source is included
 message Evidence {
   string source = 1;
-  string gene = 2;
-  ga4gh.Feature feature = 3;
+  repeated string genes = 2;
+  repeated ga4gh.Feature features = 3;
   ga4gh.FeaturePhenotypeAssociation association = 4;
   // opaque source documents
   google.protobuf.Struct cgi = 5;
@@ -22,4 +22,5 @@ message Evidence {
   google.protobuf.Struct civic = 7;
   google.protobuf.Struct oncokb = 8;
   google.protobuf.Struct molecularmatch = 9;
+  google.protobuf.Struct pmkb = 10;
 }
